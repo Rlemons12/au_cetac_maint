@@ -1,0 +1,34 @@
+# Dev image extends prod, adds dev-only tools & checks
+FROM python:3.11-slim AS dev
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1 \
+    LANG=C.UTF-8 \
+    LC_ALL=C.UTF-8
+
+# Dev tools
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    curl \
+    vim \
+    git \
+ && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+# Copy everything (dev mode usually uses bind mounts anyway)
+COPY . /app/
+
+# Install deps normally
+RUN python -m pip install --upgrade pip && \
+    pip install -r requirements.txt && \
+    pip install pathspec watchdog  # dev-only extras
+
+# Run check_imports.py automatically
+RUN python /app/check_imports.py || true
+
+# Writable dirs
+RUN install -d -o root -g root /app/logs /app/log_backup
+
+EXPOSE 5000
+CMD ["python", "ai_emtac.py"]

@@ -1,0 +1,29 @@
+2025-05-15 02:53:18,536 - MainThread - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\10169062\\Desktop\\AuMaintdb\\emtac\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-05-15 02:53:18,536 - MainThread - INFO - Using writeable comtypes cache directory: 'C:\Users\10169062\Desktop\AuMaintdb\emtac\lib\site-packages\comtypes\gen'
+2025-05-15 02:53:18,547 - MainThread - INFO - Creating SQLAlchemy engine with DATABASE_URL: sqlite:///C:\Users\10169062\Desktop\AU_IndusMaintdb\Database\emtac_db.db
+2025-05-15 02:53:18,555 - MainThread - INFO - BEGIN (implicit)
+2025-05-15 02:53:18,559 - MainThread - INFO - SELECT image_model_config.id AS image_model_config_id, image_model_config."key" AS image_model_config_key, image_model_config.value AS image_model_config_value 
+FROM image_model_config 
+WHERE image_model_config."key" = ?
+ LIMIT ? OFFSET ?
+2025-05-15 02:53:18,559 - MainThread - INFO - [generated in 0.00063s] ('CURRENT_IMAGE_MODEL', 1, 0)
+2025-05-15 02:53:18,560 - MainThread - INFO - ROLLBACK
+2025-05-15 02:53:20,277 - MainThread - INFO - BEGIN (implicit)
+2025-05-15 02:53:20,278 - MainThread - INFO - SELECT image_model_config.id AS image_model_config_id, image_model_config."key" AS image_model_config_key, image_model_config.value AS image_model_config_value 
+FROM image_model_config 
+WHERE image_model_config."key" = ?
+ LIMIT ? OFFSET ?
+2025-05-15 02:53:20,278 - MainThread - INFO - [generated in 0.00026s] ('CURRENT_IMAGE_MODEL', 1, 0)
+2025-05-15 02:53:20,279 - MainThread - INFO - ROLLBACK
+2025-05-15 02:53:21,466 - MainThread - INFO - BEGIN (implicit)
+2025-05-15 02:53:21,467 - MainThread - INFO - SELECT ai_model_config.id AS ai_model_config_id, ai_model_config."key" AS ai_model_config_key, ai_model_config.value AS ai_model_config_value 
+FROM ai_model_config 
+WHERE ai_model_config."key" = ?
+ LIMIT ? OFFSET ?
+2025-05-15 02:53:21,467 - MainThread - INFO - [generated in 0.00024s] ('CURRENT_AI_MODEL', 1, 0)
+2025-05-15 02:53:21,468 - MainThread - INFO - SELECT ai_model_config.id AS ai_model_config_id, ai_model_config."key" AS ai_model_config_key, ai_model_config.value AS ai_model_config_value 
+FROM ai_model_config 
+WHERE ai_model_config."key" = ?
+ LIMIT ? OFFSET ?
+2025-05-15 02:53:21,468 - MainThread - INFO - [cached since 0.00156s ago] ('CURRENT_EMBEDDING_MODEL', 1, 0)
+2025-05-15 02:53:21,468 - MainThread - INFO - ROLLBACK

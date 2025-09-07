@@ -1,0 +1,61 @@
+MMLFL,
+AFL12100-AFL12600,
+Rotary Fillers,
+Load Station,
+Not loading Bags,
+Check Light Curtian sensors,
+MMLFL
+AFL12100-AFL12600
+Rotary Fillers
+Load Station
+Not loading Bags
+Check that machine is in auto.
+MMLFL
+AFL12100-AFL12600
+Rotary Fillers
+Load Station
+Not loading Bags
+Inspect fiber optics at jaw open sensor for Items that could disrup the sensors out put
+MMLFL
+AFL20100-AFL21000
+Irrigation Fillers
+Load Station
+Not Filling
+Check Air to Pinch Valve
+MMUSS
+AFS11000,AFS11800,AFS11200
+White Cap
+Indexer
+Indexer will not Index
+1) Machine powered ON (See No Auto or Power tab)
+2) HMI powered ON (See No Auto or Power tab)
+3) Verify No faults on HMI (HMI passcode "4599")
+4) Verify HMI in Auto or Clear Machine
+MMUSS
+AFS11000,AFS11800,AFS11200
+White Cap
+Indexer
+If #1,2 above are good & #3 is 
+bad
+1) Clear faults
+2) Reset & restart machine by toggling machine power
+3) Verify Indexer clutch X001 is not tripped (HMI passcode "4599")
+4) Verify that Indexer sensor X000 on input shaft of gearbox is made
+MMUSS
+AFS11000,AFS11800,AFS11200
+White Cap
+Indexer
+If #1,2,3,4 above are good & 
+will not Index
+1) Check motor controller in main cabinet for power
+2) Visually check DC motor brushes with power OFF
+3) Check power to motor
+MMUSS
+AFS11000,AFS11800,AFS11200
+White Cap
+Indexer
+Indexer moving intermittent
+1) Power machine off and check motor brushes, Replace if damaged or very short (<less than 3/8" ). If brush is damaged or in pieces, be sure to 
+remove all pieces from brush mount cavity.
+2) Look at machine and confirm that indexer did not stop mid-index.
+

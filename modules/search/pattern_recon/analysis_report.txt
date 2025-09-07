@@ -1,0 +1,143 @@
+================================================================================
+PART TABLE SEARCH PATTERN ANALYSIS REPORT
+================================================================================
+Generated at: 2025-06-10 12:18:45
+Analyzed columns: 5
+Generated patterns: 44
+Generated intents: 8
+Generated keywords: 49
+
+COLUMN ANALYSIS SUMMARY
+----------------------------------------
+Column: part_number
+  Data Type: part_number
+  Patterns: 3
+  Common Words: 4
+  Complexity: simple
+  Top Words: VALVE, BEARING, MOTOR, SWITCH
+
+Column: name
+  Data Type: short_text
+  Patterns: 4
+  Common Words: 5
+  Complexity: medium
+  Top Words: VALVE, BEARING, MOTOR, ASSEMBLY, SWITCH
+
+Column: oem_mfg
+  Data Type: short_text
+  Patterns: 3
+  Common Words: 4
+  Complexity: simple
+  Top Words: ABB, SIEMENS, EMERSON, HONEYWELL
+
+Column: model
+  Data Type: code
+  Patterns: 2
+  Common Words: 3
+  Complexity: simple
+  Top Words: SERIES, MODEL, TYPE
+
+Column: notes
+  Data Type: long_text
+  Patterns: 1
+  Common Words: 3
+  Complexity: complex
+  Top Words: REPLACEMENT, COMPATIBLE, ORIGINAL
+
+PATTERN TYPE SUMMARY
+----------------------------------------
+extraction: 29 patterns
+general: 12 patterns
+fuzzy: 3 patterns
+
+SEARCH INTENT SUMMARY
+----------------------------------------
+Intent: FIND_PART
+  Priority: 1.0
+  Patterns: 25
+  Keywords: 5
+  Description: Find parts by number, name, or characteristics
+
+Intent: FIND_BY_MANUFACTURER
+  Priority: 0.9
+  Patterns: 9
+  Keywords: 6
+  Description: Find parts by manufacturer or brand
+
+Intent: FIND_VALVE
+  Priority: 0.95
+  Patterns: 1
+  Keywords: 8
+  Description: Find valve-specific parts and assemblies
+
+Intent: FIND_BEARING
+  Priority: 0.95
+  Patterns: 1
+  Keywords: 6
+  Description: Find bearing-specific parts and assemblies
+
+Intent: FIND_MOTOR
+  Priority: 0.95
+  Patterns: 2
+  Keywords: 7
+  Description: Find motor-specific parts and assemblies
+
+Intent: FIND_SWITCH
+  Priority: 0.95
+  Patterns: 1
+  Keywords: 6
+  Description: Find switch-specific parts and assemblies
+
+Intent: FIND_SEAL
+  Priority: 0.95
+  Patterns: 1
+  Keywords: 5
+  Description: Find seal-specific parts and assemblies
+
+Intent: FIND_BY_MODEL
+  Priority: 0.85
+  Patterns: 5
+  Keywords: 4
+  Description: Find parts by model number or series
+
+SAMPLE PATTERNS
+----------------------------------------
+1. find\s+(?:this\s+|the\s+)?part\s+(?:number\s+)?([A-Za-z0-9\-\.]{3,})
+   Type: extraction, Priority: 1.0
+   Targets: part_number
+
+2. search\s+(?:for\s+)?part\s+(?:number\s+)?([A-Za-z0-9\-\.]{3,})
+   Type: extraction, Priority: 1.0
+   Targets: part_number
+
+3. (?:i\s+)?need\s+(?:the\s+)?part\s+number\s+for\s+(.+?)(?:\?|$)
+   Type: extraction, Priority: 1.0
+   Targets: name, description
+
+4. what\s+(?:is\s+)?(?:the\s+)?part\s+number\s+for\s+(.+?)(?:\?|$)
+   Type: extraction, Priority: 1.0
+   Targets: name, description
+
+5. ([A-Za-z]\d{5,})
+   Type: extraction, Priority: 0.8
+   Targets: part_number
+
+6. (\d{6,})
+   Type: extraction, Priority: 0.7
+   Targets: part_number
+
+7. #\s*([A-Za-z0-9\-\.]{3,})
+   Type: extraction, Priority: 0.9
+   Targets: part_number
+
+8. (?:i\'?m\s+)?looking\s+for\s+(?:a\s+|an\s+|some\s+)?(.+)
+   Type: extraction, Priority: 0.9
+   Targets: name
+
+9. (?:i\s+)?need\s+(?:a\s+|an\s+|some\s+)?(.+)
+   Type: extraction, Priority: 0.9
+   Targets: name
+
+10. find\s+(?:me\s+)?(?:a\s+|an\s+|some\s+)?(.+)
+   Type: extraction, Priority: 0.9
+   Targets: name

@@ -1,0 +1,148 @@
+# ── Secrets / local env (never bake real creds)
+.env
+.env.*
+!.env.example
+!.env.template
+
+# ── VCS
+.git
+.gitignore
+.gitattributes
+
+# ── Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+build/
+dist/
+.wheels/
+
+# ── Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ── Tests/typing/coverage caches
+.pytest_cache/
+.tox/
+.nox/
+.mypy_cache/
+.pyre/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.cache/
+
+# ── Logs & runtime junk (created at runtime / mounted by compose)
+*.log
+logs/
+log_backup/
+tmp/
+
+# ── Editors/OS noise
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Node/JS (if present locally but not needed in the image)
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+
+# ── Project heavy artifacts you asked about (kept via bind mounts at runtime)
+plugins/ai_modules/gpt4all/*.bin
+plugins/huggingface/models--*
+Database/temp_files/
+Database/db_backup/
+Database/PPT_FILES/
+Database/PDF_FILES/
+
+# (We already mount logs & backups; ignoring here keeps them out of the image layers)
+logs/
+log_backup/
+
+# ── Misc large/local files you don’t want baked
+*.sqlite
+*.db
+*.db-shm
+*.db-wal
+
+# ---- Aggressively shrink plugins/ and modules/
+# Ignore everything, then allow common code/config files back in
+plugins/**
+!plugins/**/*.py
+!plugins/**/*.pyi
+!plugins/**/*.txt
+!plugins/**/*.md
+!plugins/**/*.json
+!plugins/**/*.yaml
+!plugins/**/*.yml
+!plugins/**/*.ini
+!plugins/**/*.cfg
+# (Add more allowlisted extensions if your code needs them, e.g. html/jinja/sql)
+# !plugins/**/*.html
+# !plugins/**/*.jinja2
+# !plugins/**/*.sql
+
+modules/**
+!modules/**/*.py
+!modules/**/*.pyi
+!modules/**/*.txt
+!modules/**/*.md
+!modules/**/*.json
+!modules/**/*.yaml
+!modules/**/*.yml
+!modules/**/*.ini
+!modules/**/*.cfg
+# !modules/**/*.html
+# !modules/**/*.jinja2
+# !modules/**/*.sql
+
+# ---- Entire Database folder is heavy: mount at runtime if needed
+Database/**
+# If you truly need tiny seeds baked in, re-allow them:
+# !Database/seed/*.sql
+# !Database/seed/*.sqlite
+
+# ---- Other large runtime/output dirs (mount instead)
+uploads/**
+output/**
+tests/**
+
+# ---- Recursive cache ignores (catch at any depth)
+**/.cache/**
+**/__pycache__/**
+**/*.pyc
+
+# ---- Model/corpus patterns you had (make recursive)
+plugins/ai_modules/gpt4all/**/*.bin
+plugins/ai_modules/gpt4all/**/*.gguf
+plugins/huggingface/**
+
+# (dedupe these; they’re already above but keeping one copy is fine)
+logs/
+log_backup/
+.vscode
+.vs/
+__pycache__/
+.venv/
+*.db
+*.log
+logs/
+log_backup/
+modules/emtac_ai/training_data/
+modules/emtac_ai/training_scripts/
+# ---- Ignore Windows-only utility scripts ----
+utility_tools/**
+verify_all_info_script/**

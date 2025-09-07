@@ -1,0 +1,85 @@
+-- Optimized search patterns
+-- Generated at: 2025-06-10 14:09:16.956
+-- Total optimized patterns: 72
+-- Optimization stats: {'total_input': 151, 'duplicates_removed': 79, 'patterns_merged': 79, 'invalid_patterns': 0, 'optimized_patterns': 72}
+
+-- Patterns for intent: FIND_PART
+INSERT INTO intent_pattern (intent_id, pattern_text, pattern_type, priority, success_rate, usage_count, is_active, created_at, updated_at) VALUES
+(1, 'search\s+(?:for\s+)?(?:part\s+)?([A-Za-z0-9\-\.]{3,})', 'extraction', 1.000, 0.950, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:show|get|display)\s+(?:me\s+)?(?:part\s+)?([A-Za-z0-9\-\.]{3,})', 'extraction', 1.000, 0.950, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:i\s+)?need\s+.*valve.*', 'extraction', 1.000, 0.950, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:find|search|show|get)\s+.*switch.*', 'extraction', 1.000, 0.950, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:i\s+)?need\s+.*switch.*', 'extraction', 1.000, 0.950, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:looking\s+for|want)\s+.*switch.*', 'extraction', 1.000, 0.950, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:i\s+)?need\s+.*bearing.*', 'extraction', 1.000, 0.950, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:looking\s+for|want)\s+.*bearing.*', 'extraction', 1.000, 0.950, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:i\s+)?need\s+.*belt.*', 'extraction', 1.000, 0.950, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:i\s+)?need\s+.*cylinder.*', 'extraction', 1.000, 0.950, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:looking\s+for|want)\s+.*cylinder.*', 'extraction', 1.000, 0.950, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:i\s+)?need\s+.*drive.*', 'extraction', 1.000, 0.950, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:model\s+|type\s+|series\s+)([A-Za-z0-9\-\.]+)', 'extraction', 1.000, 0.950, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, 'for\s+(?:model\s+|type\s+)?([A-Za-z0-9\-\.]+)', 'extraction', 1.000, 0.950, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '([A-Za-z0-9\-\.]{3,})\s+(?:model|type|series)', 'extraction', 1.000, 0.950, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, 'show\s+(?:me\s+)?part\s+(?:number\s+)?([A-Za-z0-9\-\.]{3,})', 'extraction', 1.000, 0.950, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, 'what\s+(?:is\s+)?(?:the\s+)?part\s+number\s+for\s+(.+?)(?:\?|$)', 'extraction', 1.000, 0.950, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, 'part\s+number\s+for\s+(.+?)(?:\?|$)', 'extraction', 1.000, 0.950, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, 'find\s+(?:part\s+)?(?:number\s+)?([A-Za-z0-9\-\.]{3,})', 'extraction', 1.000, 0.950, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(.+?)\s+from\s+(.+?)(?:\s+model\s+(.+?))?(?:\?|$)', 'extraction', 1.000, 0.900, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(.+?)\s+(?:part\s+)?number\s+([A-Za-z0-9\-\.]+)', 'extraction', 1.000, 0.900, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, 'show\s+(?:me\s+)?(?:all\s+)?(.+?)\s+(?:parts|components)\s+(?:for\s+)?(.+?)(?:\?|$)', 'extraction', 1.000, 0.900, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, 'what\s+(.+?)\s+(?:parts|components)\s+do\s+we\s+have\s+from\s+(.+?)(?:\?|$)', 'extraction', 1.000, 0.900, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:i''?m\s+)?looking\s+for\s+(?:a\s+|an\s+|some\s+)?(.+)', 'extraction', 1.000, 0.900, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, 'what\s+(.+?)\s+do\s+we\s+have\s+from\s+(.+?)(?:\?|$)', 'extraction', 1.000, 0.900, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '#\s*([A-Za-z0-9\-\.]{3,})', 'extraction', 0.954, 0.927, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:find|search|show|get)\s+.*bearing.*', 'extraction', 0.955, 0.905, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:i\''?m\s+)?looking\s+for\s+(.+)', 'extraction', 0.955, 0.905, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, 'show\s+(?:me\s+)?(.+)', 'extraction', 0.955, 0.905, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:find|search|show|get)\s+.*valve.*', 'extraction', 0.955, 0.905, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:looking\s+for|want)\s+.*valve.*', 'extraction', 0.955, 0.905, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:parts\s+)?(?:from|by|made\s+by)\s+hospira10671', 'extraction', 0.900, 0.950, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, 'hospira10671\s+(?:parts|components)', 'extraction', 0.900, 0.950, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:parts\s+)?(?:from|by|made\s+by)\s+allen brad', 'extraction', 0.900, 0.950, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, 'allen brad\s+(?:parts|components)', 'extraction', 0.900, 0.950, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:parts\s+)?(?:from|by|made\s+by)\s+festo', 'extraction', 0.900, 0.950, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, 'festo\s+(?:parts|components)', 'extraction', 0.900, 0.950, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:parts\s+)?(?:from|by|made\s+by)\s+smc cylinder', 'extraction', 0.900, 0.950, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, 'smc cylinder\s+(?:parts|components)', 'extraction', 0.900, 0.950, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, 'inhouse\s+(?:parts|components)', 'extraction', 0.900, 0.950, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(.+?)\s+(?:parts|components)(?:\?|$)', 'extraction', 0.900, 0.950, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:i\s+)?need\s+.*motor.*', 'extraction', 0.938, 0.888, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, 'find\s+(?:me\s+)?(?:a\s+|an\s+|some\s+)?(.+)', 'extraction', 0.938, 0.888, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '([A-Za-z]\d{5,})', 'extraction', 0.917, 0.908, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:i\s+)?need\s+.*amp.*', 'extraction', 0.929, 0.879, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:looking\s+for|want)\s+.*motor.*', 'extraction', 0.924, 0.874, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(\d{6,})', 'extraction', 0.898, 0.899, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:parts\s+)?(?:from\s+|by\s+|made\s+by\s+)(.+?)(?:\?|$)', 'extraction', 0.900, 0.850, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, 'what\s+(.+?)\s+(?:parts|components)\s+do\s+(?:we\s+|you\s+)?have(?:\?|$)', 'extraction', 0.900, 0.850, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:find|search|show|get)\s+.*from to.*', 'extraction', 0.900, 0.850, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:find|search|show|get)\s+.*johnson.*', 'extraction', 0.900, 0.850, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:i\s+)?need\s+.*johnson.*', 'extraction', 0.900, 0.850, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:i\s+)?need\s+.*used.*', 'extraction', 0.900, 0.850, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:i\s+)?need\s+.*changed.*', 'extraction', 0.900, 0.850, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, 'show\s+(?:me\s+)?(.+?)\s+from\s+(.+?)(?:\?|$)', 'extraction', 0.900, 0.850, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:i\s+)?need\s+.*from.*', 'extraction', 0.900, 0.850, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, 'what\s+(.+?)\s+do\s+(?:we\s+|you\s+)?have(?:\?|$)', 'extraction', 0.886, 0.836, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:i\s+)?need\s+(?:a\s+|an\s+|some\s+)?(.+)', 'extraction', 0.883, 0.833, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '(?:find|search|show|get)\s+(?:me\s+)?(?:a\s+|an\s+|some\s+)?pump.*', 'general', 0.850, 0.800, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, 'what\s+bearing.*do\s+(?:we\s+|you\s+)?have(?:\?|$)', 'general', 0.850, 0.800, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, 'bearing\s+(?:parts|components|assembly)', 'general', 0.850, 0.800, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, 'pump\s+(?:parts|components|assembly)', 'general', 0.850, 0.800, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, 'find\s+part.*', 'general', 0.600, 0.700, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, 'search\s+for\s+part.*', 'general', 0.600, 0.700, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, '.*part\s+number.*', 'general', 0.500, 0.600, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(1, 'r''find\s+parts\s+called\s+(.+?)(?:\?|$)''', 'extraction', 1.000, 0.000, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956');
+
+-- Patterns for intent: SHOW_IMAGES
+INSERT INTO intent_pattern (intent_id, pattern_text, pattern_type, priority, success_rate, usage_count, is_active, created_at, updated_at) VALUES
+(2, 'show\s+(me\s+)?(images|pictures|photos)\s+of\s+(.+)', 'extraction', 1.000, 0.900, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(2, '(images|pictures|photos)\s+(of|from|in)\s+(.+)', 'extraction', 1.000, 0.900, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(2, 'what\s+does\s+(.+)\s+look\s+like', 'extraction', 0.900, 0.850, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956');
+
+-- Patterns for intent: LOCATION_SEARCH
+INSERT INTO intent_pattern (intent_id, pattern_text, pattern_type, priority, success_rate, usage_count, is_active, created_at, updated_at) VALUES
+(3, 'what''s\s+in\s+(room|area|zone|section|location)\s*([A-Z0-9]+)', 'extraction', 1.000, 0.900, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(3, 'show\s+me\s+(everything|all|what''s*)\s+in\s+([A-Z0-9\s]+)', 'extraction', 1.000, 0.900, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956'),
+(3, 'equipment\s+(in|at)\s+(.+)', 'extraction', 0.900, 0.850, 0, true, '2025-06-10 14:09:16.956', '2025-06-10 14:09:16.956');

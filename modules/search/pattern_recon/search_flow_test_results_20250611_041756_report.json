@@ -1,0 +1,48 @@
+{
+  "timestamp": "2025-06-11T04:17:56.843999",
+  "total_tests": 15,
+  "successful_searches": 15,
+  "found_original_parts": 15,
+  "search_success_rate": 100.0,
+  "part_found_rate": 100.0,
+  "avg_response_time": 0.021507851282755532,
+  "query_type_analysis": {
+    "direct": {
+      "total_tests": 10,
+      "parts_found": 10,
+      "success_rate": 100.0,
+      "avg_response_time": 0.01729848384857178
+    },
+    "reverse_lookup": {
+      "total_tests": 5,
+      "parts_found": 5,
+      "success_rate": 100.0,
+      "avg_response_time": 0.029926586151123046
+    }
+  },
+  "search_method_analysis": {
+    "part_number_search": {
+      "total_tests": 10,
+      "parts_found": 10,
+      "success_rate": 100.0,
+      "avg_response_time": 0.01729848384857178
+    },
+    "description_search": {
+      "total_tests": 5,
+      "parts_found": 5,
+      "success_rate": 100.0,
+      "avg_response_time": 0.029926586151123046
+    }
+  },
+  "pattern_usage": {
+    "1": 5,
+    "10": 5,
+    "14": 10,
+    "15": 10,
+    "17": 5,
+    "5": 5,
+    "7": 5,
+    "19": 5
+  },
+  "ai_generated": true
+}

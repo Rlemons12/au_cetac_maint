@@ -1,0 +1,2498 @@
+{
+  "column_profiles": {
+    "part_number": {
+      "name": "part_number",
+      "total_records": 19912,
+      "null_count": 0,
+      "unique_count": 19912,
+      "avg_length": 7.0,
+      "common_patterns": [
+        {
+          "pattern": "^[A-Z][0-9]{5,}$",
+          "frequency": 1000,
+          "confidence": 1.0,
+          "examples": [
+            "A124487",
+            "A129653",
+            "A132344",
+            "A132913",
+            "A140008"
+          ],
+          "pattern_type": "part_number"
+        }
+      ],
+      "value_samples": [
+        "A124487",
+        "A129653",
+        "A132344",
+        "A132913",
+        "A140008",
+        "A128090",
+        "A122151",
+        "A133846",
+        "A120542",
+        "A102576",
+        "A118681",
+        "A133971",
+        "A125959",
+        "A122823",
+        "A112280",
+        "A143095",
+        "A134304",
+        "A130119",
+        "A120904",
+        "A126992"
+      ],
+      "data_categories": {
+        "other": 1000
+      }
+    },
+    "name": {
+      "name": "name",
+      "total_records": 19912,
+      "null_count": 0,
+      "unique_count": 16975,
+      "avg_length": 21.77671755725191,
+      "common_patterns": [
+        {
+          "pattern": "\\bVALVE\\b",
+          "frequency": 62,
+          "confidence": 0.062,
+          "examples": [
+            "HANDLE LOCKING AIR VALVE",
+            "VALVE RELIEF ACID PUMP",
+            "VALVE SOFT START",
+            "VALVE FLOW CONTROL",
+            "VALVE SOLENOID 1/4 INCH 120/60AC"
+          ],
+          "pattern_type": "word"
+        },
+        {
+          "pattern": "\\bSWITCH\\b",
+          "frequency": 52,
+          "confidence": 0.052,
+          "examples": [
+            "SWITCH LIMIT VESSEL",
+            "SWITCH ETHERNET 8 PORT",
+            "SWITCH 2 POSITION",
+            "SWITCH CYLINDER REED",
+            "SWITCH 254500 OPERATOR MASTERSTRT"
+          ],
+          "pattern_type": "word"
+        },
+        {
+          "pattern": "\\bBEARING\\b",
+          "frequency": 52,
+          "confidence": 0.052,
+          "examples": [
+            "BEARING",
+            "BEARING",
+            "BEARING WIND-UP",
+            "BEARING ADJUSTING ROD CASEFORMER",
+            "BEARING CAM FOLLOWER"
+          ],
+          "pattern_type": "word"
+        },
+        {
+          "pattern": "\\bBELT\\b",
+          "frequency": 46,
+          "confidence": 0.046,
+          "examples": [
+            "BELT 20MM WIDE SURFACE IS TACKY",
+            "BELT 2400 15\" FLUSH GRID",
+            "BELT PULLEY MINI CONVEYOR",
+            "SCREW THUMB PULL BELT",
+            "BELT TANGO CUSH TOP 109 LINKS"
+          ],
+          "pattern_type": "word"
+        },
+        {
+          "pattern": "\\bCABLE\\b",
+          "frequency": 39,
+          "confidence": 0.039,
+          "examples": [
+            "CABLE BACKLIGHT TEAR STRIP",
+            "TRACK FESTOON CABLE TROLLEY",
+            "CLAMP CABLE NYLON 1/8\"",
+            "CABLE 5M PRWRD",
+            "CABLE"
+          ],
+          "pattern_type": "word"
+        },
+        {
+          "pattern": "\\bCYLINDER\\b",
+          "frequency": 33,
+          "confidence": 0.033,
+          "examples": [
+            "CYLINDER LIFT",
+            "CYLINDER HYDRAULIC SINGLE ACTION",
+            "PIN CLEVIS CYLINDER BOTTOM",
+            "SWITCH CYLINDER REED",
+            "CYLINDER CYLINDER ST7 TOP ST4&7BOT"
+          ],
+          "pattern_type": "word"
+        },
+        {
+          "pattern": "\\bKIT\\b",
+          "frequency": 33,
+          "confidence": 0.033,
+          "examples": [
+            "REPAIR KIT",
+            "KIT JUMPER BAR",
+            "KIT INTERFACE",
+            "SEAL GLAND CARTRIDGE KIT",
+            "VALVE 1\" WASTE REBLD KIT 302283"
+          ],
+          "pattern_type": "word"
+        },
+        {
+          "pattern": "\\bDRIVE\\b",
+          "frequency": 32,
+          "confidence": 0.032,
+          "examples": [
+            "SHAFT DRIVE 316 SST EDISC 2\"",
+            "GEAR BOX TACO DRIVE REVERSE 2: 1 RATIO",
+            "DRIVER NEGATIVE",
+            "CHAIN DRIVE MAIN EA=METER",
+            "MOTOR 15HP DRIVE   DC SPECIAL"
+          ],
+          "pattern_type": "word"
+        },
+        {
+          "pattern": "\\bMOTOR\\b",
+          "frequency": 25,
+          "confidence": 0.025,
+          "examples": [
+            "MOTOR 1HP FB56C 1800 RPM TEFC",
+            "BRUSH MOTOR DC",
+            "MOTOR 15HP DRIVE   DC SPECIAL",
+            "STARTER MOTOR 1.6-2.5A",
+            "ACTUATOR AIR MOTOR 2-1/2\" N/O"
+          ],
+          "pattern_type": "word"
+        },
+        {
+          "pattern": "\\bAMP\\b",
+          "frequency": 24,
+          "confidence": 0.024,
+          "examples": [
+            "BREAKER CIRCUIT 2 AMP",
+            "LAMP MINI 130V 3W",
+            "FUSE 1/2 AMP 600V",
+            "PIN VIALPORT CLAMP STATION 8",
+            "CLAMP CABLE NYLON 1/8\""
+          ],
+          "pattern_type": "word"
+        }
+      ],
+      "value_samples": [
+        "CAPACITOR 1900-350DC .",
+        "BLOCK LIFT ROLLER LEFT HAND",
+        "HOLDER FUSE",
+        "BLOCK LONG",
+        "BELT 20MM WIDE SURFACE IS TACKY",
+        "BASE SYSTEM 505",
+        "SWITCH LIMIT VESSEL",
+        "SLUG PRINT EXP1DEC201 LC/IRR",
+        "KNIFE COLPITT",
+        "DIAPHRAGM 1/2\"",
+        "BEARING",
+        "RECEIVER LONG VIEW TRANSMITTE",
+        "CHOKE 15-30 MHZ",
+        "CYLINDER LIFT",
+        "HANDLE LOCKING AIR VALVE",
+        "CONTACTOR",
+        "PANEL MICRO",
+        "BREAKER CIRCUIT 2 AMP",
+        "MODULE INPUT 24 VDC",
+        "SPRING STRIPPER MODULE"
+      ],
+      "data_categories": {
+        "motor": 160,
+        "bearing": 78,
+        "other": 395,
+        "switch": 52,
+        "pump": 10,
+        "valve": 89,
+        "seal": 53,
+        "gear": 10,
+        "belt": 42,
+        "filter": 33,
+        "cable": 39,
+        "sensor": 14,
+        "relay": 24,
+        "spring": 1
+      }
+    },
+    "oem_mfg": {
+      "name": "oem_mfg",
+      "total_records": 19912,
+      "null_count": 19,
+      "unique_count": 1893,
+      "avg_length": 9.665176777822419,
+      "common_patterns": [
+        {
+          "pattern": "\\bHOSPIRA10671\\b",
+          "frequency": 46,
+          "confidence": 0.046,
+          "examples": [
+            "HOSPIRA10671",
+            "HOSPIRA10671",
+            "HOSPIRA10671"
+          ],
+          "pattern_type": "manufacturer"
+        },
+        {
+          "pattern": "\\bALLEN\\ BRAD\\b",
+          "frequency": 42,
+          "confidence": 0.042,
+          "examples": [
+            "ALLEN BRAD",
+            "ALLEN BRAD",
+            "ALLEN BRAD"
+          ],
+          "pattern_type": "manufacturer"
+        },
+        {
+          "pattern": "\\bFESTO\\b",
+          "frequency": 40,
+          "confidence": 0.04,
+          "examples": [
+            "FESTO",
+            "FESTO",
+            "FESTO"
+          ],
+          "pattern_type": "manufacturer"
+        },
+        {
+          "pattern": "\\bSMC\\ CYLINDER\\b",
+          "frequency": 26,
+          "confidence": 0.026,
+          "examples": [
+            "SMC CYLINDER",
+            "SMC CYLINDER",
+            "SMC CYLINDER"
+          ],
+          "pattern_type": "manufacturer"
+        },
+        {
+          "pattern": "\\bINHOUSE\\b",
+          "frequency": 13,
+          "confidence": 0.013,
+          "examples": [
+            "INHOUSE",
+            "INHOUSE",
+            "INHOUSE"
+          ],
+          "pattern_type": "manufacturer"
+        },
+        {
+          "pattern": "\\bSQUARE\\ D\\ COM\\b",
+          "frequency": 13,
+          "confidence": 0.013,
+          "examples": [
+            "SQUARE D COM",
+            "SQUARE D COM",
+            "SQUARE D COM"
+          ],
+          "pattern_type": "manufacturer"
+        },
+        {
+          "pattern": "\\bSIEMENS\\b",
+          "frequency": 12,
+          "confidence": 0.012,
+          "examples": [
+            "SIEMENS",
+            "SIEMENS",
+            "SIEMENS"
+          ],
+          "pattern_type": "manufacturer"
+        },
+        {
+          "pattern": "\\bURANIA\\ ENG\\b",
+          "frequency": 11,
+          "confidence": 0.011,
+          "examples": [
+            "URANIA ENG",
+            "URANIA ENG",
+            "URANIA ENG"
+          ],
+          "pattern_type": "manufacturer"
+        },
+        {
+          "pattern": "\\bBANNER\\b",
+          "frequency": 10,
+          "confidence": 0.01,
+          "examples": [
+            "BANNER",
+            "BANNER",
+            "BANNER"
+          ],
+          "pattern_type": "manufacturer"
+        },
+        {
+          "pattern": "\\bTRI\\-CLOVER\\ D\\b",
+          "frequency": 10,
+          "confidence": 0.01,
+          "examples": [
+            "TRI-CLOVER D",
+            "TRI-CLOVER D",
+            "TRI-CLOVER D"
+          ],
+          "pattern_type": "manufacturer"
+        }
+      ],
+      "value_samples": [
+        "ALKAR RAPID",
+        "MCMASTER CAR",
+        "TURCK",
+        "BROWNING",
+        "FESTO",
+        "FESTO",
+        "BANNER",
+        "BIMBA MFG",
+        "ITOH DENKI",
+        "SKF BEARINGS",
+        "SIEMENS",
+        "INTRALOX",
+        "FISHER SCIEN",
+        "ALLEN BRAD",
+        "NORDSON CORP",
+        "ASHCROFT GAU",
+        "ALLEN BRAD",
+        "KAYE INSTRUM",
+        "AU MACH SHOP",
+        "THOMSON INDU"
+      ],
+      "data_categories": {
+        "other": 880,
+        "bearing": 7,
+        "motor": 38,
+        "pump": 14,
+        "filter": 17,
+        "valve": 23,
+        "seal": 9,
+        "gear": 3,
+        "switch": 3,
+        "relay": 3,
+        "belt": 2,
+        "sensor": 1
+      }
+    },
+    "model": {
+      "name": "model",
+      "total_records": 19912,
+      "null_count": 1,
+      "unique_count": 19716,
+      "avg_length": 10.938077541181197,
+      "common_patterns": [
+        {
+          "pattern": "^[A-Z0-9]+-[A-Z0-9]+$",
+          "frequency": 220,
+          "confidence": 0.22,
+          "examples": [
+            "ML312516-07",
+            "SMR2425-6",
+            "ZPT2-A5",
+            "22A-D1P4N104",
+            "6189-166MB"
+          ],
+          "pattern_type": "model"
+        },
+        {
+          "pattern": "^[A-Z0-9]{3,}$",
+          "frequency": 213,
+          "confidence": 0.213,
+          "examples": [
+            "62MD1134",
+            "1768PA3",
+            "4000886",
+            "40019301",
+            "5269C"
+          ],
+          "pattern_type": "model"
+        },
+        {
+          "pattern": "^[A-Z]+[0-9]+[-\\.]?[A-Z0-9]*$",
+          "frequency": 76,
+          "confidence": 0.076,
+          "examples": [
+            "A1FUF00E031",
+            "ELOEM8460S04",
+            "TB5",
+            "C60502000",
+            "R2905300"
+          ],
+          "pattern_type": "model"
+        }
+      ],
+      "value_samples": [
+        "ML312516-07",
+        "SMR2425-6",
+        "E-9104-1-2",
+        "6AV7863-2TB10-0AA0",
+        "ROL180021",
+        "A1FUF00E031",
+        "SP.TXQ1-5 80C",
+        "FRSR 1 1/4",
+        "52A-31-B0B-DM-DDAJ-1JM",
+        "ZPT2-A5",
+        "19TR-572A-1.5-316L",
+        "62MD1134",
+        "ELOEM8460S04",
+        "B-12197-1-7",
+        "4982-58-11",
+        "MR754",
+        "22A-D1P4N104",
+        "T1167-08-51-OAL-MPXFJIC",
+        "GRLA-3/8-NPT-B 151555",
+        "6189-166MB"
+      ],
+      "data_categories": {
+        "other": 982,
+        "motor": 17,
+        "valve": 1
+      }
+    },
+    "class_flag": {
+      "name": "class_flag",
+      "total_records": 19912,
+      "null_count": 0,
+      "unique_count": 15,
+      "avg_length": 3.0,
+      "common_patterns": [
+        {
+          "pattern": "\\bGEN\\b",
+          "frequency": 882,
+          "confidence": 0.882,
+          "examples": [
+            "GEN",
+            "GEN",
+            "GEN"
+          ],
+          "pattern_type": "value"
+        },
+        {
+          "pattern": "\\bCST\\b",
+          "frequency": 49,
+          "confidence": 0.049,
+          "examples": [
+            "CST",
+            "CST",
+            "CST"
+          ],
+          "pattern_type": "value"
+        },
+        {
+          "pattern": "\\bMCH\\b",
+          "frequency": 16,
+          "confidence": 0.016,
+          "examples": [
+            "MCH",
+            "MCH",
+            "MCH"
+          ],
+          "pattern_type": "value"
+        },
+        {
+          "pattern": "\\bVDR\\b",
+          "frequency": 16,
+          "confidence": 0.016,
+          "examples": [
+            "VDR",
+            "VDR",
+            "VDR"
+          ],
+          "pattern_type": "value"
+        },
+        {
+          "pattern": "\\bREP\\b",
+          "frequency": 16,
+          "confidence": 0.016,
+          "examples": [
+            "REP",
+            "REP",
+            "REP"
+          ],
+          "pattern_type": "value"
+        },
+        {
+          "pattern": "\\bOBS\\b",
+          "frequency": 6,
+          "confidence": 0.006,
+          "examples": [
+            "OBS",
+            "OBS",
+            "OBS"
+          ],
+          "pattern_type": "value"
+        },
+        {
+          "pattern": "\\bCSP\\b",
+          "frequency": 6,
+          "confidence": 0.006,
+          "examples": [
+            "CSP",
+            "CSP",
+            "CSP"
+          ],
+          "pattern_type": "value"
+        },
+        {
+          "pattern": "\\bTRD\\b",
+          "frequency": 4,
+          "confidence": 0.004,
+          "examples": [
+            "TRD",
+            "TRD",
+            "TRD"
+          ],
+          "pattern_type": "value"
+        },
+        {
+          "pattern": "\\bPRS\\b",
+          "frequency": 2,
+          "confidence": 0.002,
+          "examples": [
+            "PRS",
+            "PRS"
+          ],
+          "pattern_type": "value"
+        }
+      ],
+      "value_samples": [
+        "GEN",
+        "GEN",
+        "GEN",
+        "GEN",
+        "GEN",
+        "GEN",
+        "GEN",
+        "GEN",
+        "MCH",
+        "GEN",
+        "GEN",
+        "GEN",
+        "GEN",
+        "GEN",
+        "GEN",
+        "GEN",
+        "VDR",
+        "GEN",
+        "GEN",
+        "GEN"
+      ],
+      "data_categories": {
+        "other": 1000
+      }
+    },
+    "ud6": {
+      "name": "ud6",
+      "total_records": 19912,
+      "null_count": 0,
+      "unique_count": 2,
+      "avg_length": 6.012856568903174,
+      "common_patterns": [
+        {
+          "pattern": "\\bActive\\b",
+          "frequency": 994,
+          "confidence": 0.994,
+          "examples": [
+            "Active",
+            "Active",
+            "Active"
+          ],
+          "pattern_type": "value"
+        },
+        {
+          "pattern": "\\bInactive\\b",
+          "frequency": 6,
+          "confidence": 0.006,
+          "examples": [
+            "Inactive",
+            "Inactive",
+            "Inactive"
+          ],
+          "pattern_type": "value"
+        }
+      ],
+      "value_samples": [
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active"
+      ],
+      "data_categories": {
+        "motor": 1000
+      }
+    },
+    "type": {
+      "name": "type",
+      "total_records": 19912,
+      "null_count": 0,
+      "unique_count": 140,
+      "avg_length": 3.0679991964644437,
+      "common_patterns": [
+        {
+          "pattern": "\\bOTH\\b",
+          "frequency": 299,
+          "confidence": 0.299,
+          "examples": [
+            "OTH",
+            "OTH",
+            "OTH"
+          ],
+          "pattern_type": "value"
+        },
+        {
+          "pattern": "\\bELC\\b",
+          "frequency": 118,
+          "confidence": 0.118,
+          "examples": [
+            "ELC",
+            "ELC",
+            "ELC"
+          ],
+          "pattern_type": "value"
+        },
+        {
+          "pattern": "\\bBRG\\b",
+          "frequency": 74,
+          "confidence": 0.074,
+          "examples": [
+            "BRG",
+            "BRG",
+            "BRG"
+          ],
+          "pattern_type": "value"
+        },
+        {
+          "pattern": "\\bCON\\b",
+          "frequency": 52,
+          "confidence": 0.052,
+          "examples": [
+            "CON",
+            "CON",
+            "CON"
+          ],
+          "pattern_type": "value"
+        },
+        {
+          "pattern": "\\bCAL\\b",
+          "frequency": 50,
+          "confidence": 0.05,
+          "examples": [
+            "CAL",
+            "CAL",
+            "CAL"
+          ],
+          "pattern_type": "value"
+        },
+        {
+          "pattern": "\\bELN\\b",
+          "frequency": 48,
+          "confidence": 0.048,
+          "examples": [
+            "ELN",
+            "ELN",
+            "ELN"
+          ],
+          "pattern_type": "value"
+        },
+        {
+          "pattern": "\\bHWE\\b",
+          "frequency": 46,
+          "confidence": 0.046,
+          "examples": [
+            "HWE",
+            "HWE",
+            "HWE"
+          ],
+          "pattern_type": "value"
+        },
+        {
+          "pattern": "\\bPWR\\b",
+          "frequency": 39,
+          "confidence": 0.039,
+          "examples": [
+            "PWR",
+            "PWR",
+            "PWR"
+          ],
+          "pattern_type": "value"
+        },
+        {
+          "pattern": "\\bCYL\\b",
+          "frequency": 32,
+          "confidence": 0.032,
+          "examples": [
+            "CYL",
+            "CYL",
+            "CYL"
+          ],
+          "pattern_type": "value"
+        },
+        {
+          "pattern": "\\bBLT\\b",
+          "frequency": 28,
+          "confidence": 0.028,
+          "examples": [
+            "BLT",
+            "BLT",
+            "BLT"
+          ],
+          "pattern_type": "value"
+        }
+      ],
+      "value_samples": [
+        "ELC",
+        "CAL",
+        "DWR",
+        "DIE",
+        "OTH",
+        "HWE",
+        "ELN",
+        "FLT",
+        "OTH",
+        "CAL",
+        "PWR",
+        "CON",
+        "ELN",
+        "ALM",
+        "OTH",
+        "ELC",
+        "PWR",
+        "OTH",
+        "OTH",
+        "HWE"
+      ],
+      "data_categories": {
+        "other": 999,
+        "filter": 1
+      }
+    },
+    "notes": {
+      "name": "notes",
+      "total_records": 19912,
+      "null_count": 4027,
+      "unique_count": 14009,
+      "avg_length": 69.62314182402571,
+      "common_patterns": [
+        {
+          "pattern": "\\bPER\\b",
+          "frequency": 477,
+          "confidence": 0.477,
+          "examples": [
+            "M/M 76/150 TO 60/60 per G.Johnson,KE 8/9/13. USED ON BAG WASHER. P/N AHJ421670 IS NO LONGER AVAIL. CHANGED TO P/N AHJ001722 WITH SLIGHTLY LARGER OD - RON JOHNSON APPROVED (LP 3/3/98)",
+            "NEOPRENE M/M from 3/4 TO 2/2 per S.Wilhelm,KE 6/10/11.",
+            "SET CONSISTS OF BOTH THE YOKE AND PIN M/M from 2/2 TO 1/1 per S.Wilhelm,KE 3/22/07.",
+            "RECOMMENDED REPLACEMENT IS HDR. BARBER COLEMAN CB11-01240-022-2-00 OBSOLETE.8/96 SOLID STATE CONTROLLER FOR HOT STAMP PRESS ON FAB 16 MIN MAX SET TO 1/2 VS 0/1 ON 5/04/92 PER T. MILLIGAN ON THIS NEW PART.",
+            "M/M CHANGED TO 2/2 PER G JOHNSON 7/24/17-BC USE PRE-PUNCH ASSEMBLY ON FAB #6 INDEX STRIP REMOVER from MGQL20-40-XC18 TO MGQL20TN-40 per Shino,KE 3/23/2010."
+          ],
+          "pattern_type": "word"
+        },
+        {
+          "pattern": "\\bFROM\\b",
+          "frequency": 312,
+          "confidence": 0.312,
+          "examples": [
+            "NEOPRENE M/M from 3/4 TO 2/2 per S.Wilhelm,KE 6/10/11.",
+            "SET CONSISTS OF BOTH THE YOKE AND PIN M/M from 2/2 TO 1/1 per S.Wilhelm,KE 3/22/07.",
+            "M/M CHANGED TO 2/2 PER G JOHNSON 7/24/17-BC USE PRE-PUNCH ASSEMBLY ON FAB #6 INDEX STRIP REMOVER from MGQL20-40-XC18 TO MGQL20TN-40 per Shino,KE 3/23/2010.",
+            "MFG & MFG# CHANGED TO SHURE TAPE DF642 VS ATP DC5227X PER G.J. 7/9/01 OLD BRAND PERMACEL P-50. GJ 12/21/00 CARPET TAPE USED IN SOLUTIONS & HOT STAMP MACHINES. MULTI-PURPOSE CLOTH CHANGED MIN/MAX FROM 14/24 TO 12/36 - X-PEDEX HAS TO ORDER IN CASE QTY OF 24/EA FROM MILL (LP 9/15/98)",
+            "BAG CLAMP BLOCK FEED ROLLER SHOE Ordered on blanket order with releases to reduce price. GJ 3/19/04 min/max increased to 100/200 per Adam Baker request by nsp 1/21/04 Blanket agreement set up with Dalton 11/13/03 for six-month requirements at $3.46 ea. Min/max increased to 50/150 to cover the order requirement of 100 units. gj 11/13/03 INCREASE MIN/MAX FROM 25/50 TO 50/100 PER D. PAIR  6/17/97"
+          ],
+          "pattern_type": "word"
+        },
+        {
+          "pattern": "\\bFOR\\b",
+          "frequency": 287,
+          "confidence": 0.287,
+          "examples": [
+            "RECOMMENDED REPLACEMENT IS HDR. BARBER COLEMAN CB11-01240-022-2-00 OBSOLETE.8/96 SOLID STATE CONTROLLER FOR HOT STAMP PRESS ON FAB 16 MIN MAX SET TO 1/2 VS 0/1 ON 5/04/92 PER T. MILLIGAN ON THIS NEW PART.",
+            "3-HOLE FLANGE 15/16 DIA; LUBE FOR LIFE BEARING/NO GREASE FITTING FLANGE ON ONE SIDE OF BEARING",
+            "NORMALLY DOWN CASE STOP FOR SLIP SHEET FEEDER CONVEYOR 18\" OVERALL WIDTH 1.9\" DIA ROLLER",
+            "BAG CLAMP BLOCK FEED ROLLER SHOE Ordered on blanket order with releases to reduce price. GJ 3/19/04 min/max increased to 100/200 per Adam Baker request by nsp 1/21/04 Blanket agreement set up with Dalton 11/13/03 for six-month requirements at $3.46 ea. Min/max increased to 50/150 to cover the order requirement of 100 units. gj 11/13/03 INCREASE MIN/MAX FROM 25/50 TO 50/100 PER D. PAIR  6/17/97",
+            "SIEMENS CONTROLLER FOR PART FILL AUTOFILLER. p/n 555-1103 is obsolete replaced with 555-1105 per Samantha/AWC (lp 11/18/98)"
+          ],
+          "pattern_type": "word"
+        },
+        {
+          "pattern": "\\bTO PER\\b",
+          "frequency": 249,
+          "confidence": 0.249,
+          "examples": [],
+          "pattern_type": "phrase"
+        },
+        {
+          "pattern": "\\bFROM TO\\b",
+          "frequency": 225,
+          "confidence": 0.225,
+          "examples": [],
+          "pattern_type": "phrase"
+        },
+        {
+          "pattern": "\\bJOHNSON\\b",
+          "frequency": 180,
+          "confidence": 0.18,
+          "examples": [
+            "M/M 76/150 TO 60/60 per G.Johnson,KE 8/9/13. USED ON BAG WASHER. P/N AHJ421670 IS NO LONGER AVAIL. CHANGED TO P/N AHJ001722 WITH SLIGHTLY LARGER OD - RON JOHNSON APPROVED (LP 3/3/98)",
+            "M/M CHANGED TO 2/2 PER G JOHNSON 7/24/17-BC USE PRE-PUNCH ASSEMBLY ON FAB #6 INDEX STRIP REMOVER from MGQL20-40-XC18 TO MGQL20TN-40 per Shino,KE 3/23/2010.",
+            "M/M from 3/3 TO 1/1 per G.Johnson,KE 5/4/12. TRD MANUFACTURING ,INC.  AC 312 Change mfg. p/n from Lin-Act LC-1-05 to Parker 1347570031. Parker bought out Lin-Act.  su 7/1/05",
+            "PICKUP PIN FOR ROTARY  (LONG) M/M from 5/6 TO 3/3 per G.Johnson,KE 1/19/12. Re Quote,cost sensitive",
+            "M/M from 2/2 TO 1/1 per G.Johnson,KE 6/1/12. M/M from 3/4 TO 2/2 per G.Johnson,KE 12/23/10 MIN/MAX INCREASED FROM 0/1 TO 2/4 PER A.BAKER. 10/23/03. PART OF DRUM INFEED ASSY."
+          ],
+          "pattern_type": "word"
+        },
+        {
+          "pattern": "\\bUSED\\b",
+          "frequency": 176,
+          "confidence": 0.176,
+          "examples": [
+            "M/M 76/150 TO 60/60 per G.Johnson,KE 8/9/13. USED ON BAG WASHER. P/N AHJ421670 IS NO LONGER AVAIL. CHANGED TO P/N AHJ001722 WITH SLIGHTLY LARGER OD - RON JOHNSON APPROVED (LP 3/3/98)",
+            "MFG & MFG# CHANGED TO SHURE TAPE DF642 VS ATP DC5227X PER G.J. 7/9/01 OLD BRAND PERMACEL P-50. GJ 12/21/00 CARPET TAPE USED IN SOLUTIONS & HOT STAMP MACHINES. MULTI-PURPOSE CLOTH CHANGED MIN/MAX FROM 14/24 TO 12/36 - X-PEDEX HAS TO ORDER IN CASE QTY OF 24/EA FROM MILL (LP 9/15/98)",
+            "OLD ASCO P/N 8211C73  S/N 637025  MIN MAX SET TO 1&2 VS 0&1 11/30/94 110V 50HZ; 120V 60HZ USED ON CONTINUOUS LUBE SYSTEM M/M from 2/2 TO 0/1 per S.Wilhelm,KE 7/18/07.",
+            "USED ON OXYGEN GENERATOR 3/8\" PRODUCT AND 3/4\" PRODUCT FEED VALVE ASSEMBLIES",
+            "SINGLE DECK END SECTION TERMINAL STRIP USED ON MOLES."
+          ],
+          "pattern_type": "word"
+        },
+        {
+          "pattern": "\\bMIN\\b",
+          "frequency": 155,
+          "confidence": 0.155,
+          "examples": [
+            "MIN MAX SET TO  1&2 VS 2&4 ON 4/5/94 LITTON P/N SP518 RELIANCE P/N 413366-AH",
+            "RECOMMENDED REPLACEMENT IS HDR. BARBER COLEMAN CB11-01240-022-2-00 OBSOLETE.8/96 SOLID STATE CONTROLLER FOR HOT STAMP PRESS ON FAB 16 MIN MAX SET TO 1/2 VS 0/1 ON 5/04/92 PER T. MILLIGAN ON THIS NEW PART.",
+            "MFG & MFG# CHANGED TO SHURE TAPE DF642 VS ATP DC5227X PER G.J. 7/9/01 OLD BRAND PERMACEL P-50. GJ 12/21/00 CARPET TAPE USED IN SOLUTIONS & HOT STAMP MACHINES. MULTI-PURPOSE CLOTH CHANGED MIN/MAX FROM 14/24 TO 12/36 - X-PEDEX HAS TO ORDER IN CASE QTY OF 24/EA FROM MILL (LP 9/15/98)",
+            "BAG CLAMP BLOCK FEED ROLLER SHOE Ordered on blanket order with releases to reduce price. GJ 3/19/04 min/max increased to 100/200 per Adam Baker request by nsp 1/21/04 Blanket agreement set up with Dalton 11/13/03 for six-month requirements at $3.46 ea. Min/max increased to 50/150 to cover the order requirement of 100 units. gj 11/13/03 INCREASE MIN/MAX FROM 25/50 TO 50/100 PER D. PAIR  6/17/97",
+            "OLD ASCO P/N 8211C73  S/N 637025  MIN MAX SET TO 1&2 VS 0&1 11/30/94 110V 50HZ; 120V 60HZ USED ON CONTINUOUS LUBE SYSTEM M/M from 2/2 TO 0/1 per S.Wilhelm,KE 7/18/07."
+          ],
+          "pattern_type": "word"
+        },
+        {
+          "pattern": "\\bCHANGED\\b",
+          "frequency": 153,
+          "confidence": 0.153,
+          "examples": [
+            "M/M 76/150 TO 60/60 per G.Johnson,KE 8/9/13. USED ON BAG WASHER. P/N AHJ421670 IS NO LONGER AVAIL. CHANGED TO P/N AHJ001722 WITH SLIGHTLY LARGER OD - RON JOHNSON APPROVED (LP 3/3/98)",
+            "M/M CHANGED TO 2/2 PER G JOHNSON 7/24/17-BC USE PRE-PUNCH ASSEMBLY ON FAB #6 INDEX STRIP REMOVER from MGQL20-40-XC18 TO MGQL20TN-40 per Shino,KE 3/23/2010.",
+            "PART OBSOLETE. NEW PART NUMBER BELOW. OBS STATUS. NEW LOAD SHEET REQUIRED. BUMS EMAILED 4/5/16-BC MFG part changed to .75-N-TME-31-M7-MET-A209.New loadsheet is required.KE4/1/15",
+            "MFG & MFG# CHANGED TO SHURE TAPE DF642 VS ATP DC5227X PER G.J. 7/9/01 OLD BRAND PERMACEL P-50. GJ 12/21/00 CARPET TAPE USED IN SOLUTIONS & HOT STAMP MACHINES. MULTI-PURPOSE CLOTH CHANGED MIN/MAX FROM 14/24 TO 12/36 - X-PEDEX HAS TO ORDER IN CASE QTY OF 24/EA FROM MILL (LP 9/15/98)",
+            "A STANDARD OILITE WASHER IS .656 ID AND MUST BE ENLARGED TO .675ID BY ABBOTT MACHINE SHOP. NOMINAL DIMENSIONS OF THE STOCK BUNTING WASHER ARE 5/8\"X 1 1/2\"X 1/16\". DIMENSIONS GIVEN TO DALTON 2/97 WERE .065THK X .675 ID X 1.5 OD (LP 9/10/98) CHANGED PRIORITY FROM 6 TO 5 VICKIE ORDERS FROM DALTON WITH NO MODIFICATIONS."
+          ],
+          "pattern_type": "word"
+        },
+        {
+          "pattern": "\\bMAX\\b",
+          "frequency": 147,
+          "confidence": 0.147,
+          "examples": [
+            "MIN MAX SET TO  1&2 VS 2&4 ON 4/5/94 LITTON P/N SP518 RELIANCE P/N 413366-AH",
+            "RECOMMENDED REPLACEMENT IS HDR. BARBER COLEMAN CB11-01240-022-2-00 OBSOLETE.8/96 SOLID STATE CONTROLLER FOR HOT STAMP PRESS ON FAB 16 MIN MAX SET TO 1/2 VS 0/1 ON 5/04/92 PER T. MILLIGAN ON THIS NEW PART.",
+            "MFG & MFG# CHANGED TO SHURE TAPE DF642 VS ATP DC5227X PER G.J. 7/9/01 OLD BRAND PERMACEL P-50. GJ 12/21/00 CARPET TAPE USED IN SOLUTIONS & HOT STAMP MACHINES. MULTI-PURPOSE CLOTH CHANGED MIN/MAX FROM 14/24 TO 12/36 - X-PEDEX HAS TO ORDER IN CASE QTY OF 24/EA FROM MILL (LP 9/15/98)",
+            "BAG CLAMP BLOCK FEED ROLLER SHOE Ordered on blanket order with releases to reduce price. GJ 3/19/04 min/max increased to 100/200 per Adam Baker request by nsp 1/21/04 Blanket agreement set up with Dalton 11/13/03 for six-month requirements at $3.46 ea. Min/max increased to 50/150 to cover the order requirement of 100 units. gj 11/13/03 INCREASE MIN/MAX FROM 25/50 TO 50/100 PER D. PAIR  6/17/97",
+            "OLD ASCO P/N 8211C73  S/N 637025  MIN MAX SET TO 1&2 VS 0&1 11/30/94 110V 50HZ; 120V 60HZ USED ON CONTINUOUS LUBE SYSTEM M/M from 2/2 TO 0/1 per S.Wilhelm,KE 7/18/07."
+          ],
+          "pattern_type": "word"
+        }
+      ],
+      "value_samples": [
+        "MIN MAX SET TO  1&2 VS 2&4 ON 4/5/94 LITTON P/N SP518 RELIANCE P/N 413366-AH",
+        "M/M 76/150 TO 60/60 per G.Johnson,KE 8/9/13. USED ON BAG WASHER. P/N AHJ421670 IS NO LONGER AVAIL. CHANGED TO P/N AHJ001722 WITH SLIGHTLY LARGER OD - RON JOHNSON APPROVED (LP 3/3/98)",
+        "NEOPRENE M/M from 3/4 TO 2/2 per S.Wilhelm,KE 6/10/11.",
+        "SET CONSISTS OF BOTH THE YOKE AND PIN M/M from 2/2 TO 1/1 per S.Wilhelm,KE 3/22/07.",
+        "RECOMMENDED REPLACEMENT IS HDR. BARBER COLEMAN CB11-01240-022-2-00 OBSOLETE.8/96 SOLID STATE CONTROLLER FOR HOT STAMP PRESS ON FAB 16 MIN MAX SET TO 1/2 VS 0/1 ON 5/04/92 PER T. MILLIGAN ON THIS NEW PART.",
+        "M/M CHANGED TO 2/2 PER G JOHNSON 7/24/17-BC USE PRE-PUNCH ASSEMBLY ON FAB #6 INDEX STRIP REMOVER from MGQL20-40-XC18 TO MGQL20TN-40 per Shino,KE 3/23/2010.",
+        "AAC50000 AER30300",
+        "3-HOLE FLANGE 15/16 DIA; LUBE FOR LIFE BEARING/NO GREASE FITTING FLANGE ON ONE SIDE OF BEARING",
+        "PART OBSOLETE. NEW PART NUMBER BELOW. OBS STATUS. NEW LOAD SHEET REQUIRED. BUMS EMAILED 4/5/16-BC MFG part changed to .75-N-TME-31-M7-MET-A209.New loadsheet is required.KE4/1/15",
+        "NORMALLY DOWN CASE STOP FOR SLIP SHEET FEEDER CONVEYOR 18\" OVERALL WIDTH 1.9\" DIA ROLLER",
+        "MFG & MFG# CHANGED TO SHURE TAPE DF642 VS ATP DC5227X PER G.J. 7/9/01 OLD BRAND PERMACEL P-50. GJ 12/21/00 CARPET TAPE USED IN SOLUTIONS & HOT STAMP MACHINES. MULTI-PURPOSE CLOTH CHANGED MIN/MAX FROM 14/24 TO 12/36 - X-PEDEX HAS TO ORDER IN CASE QTY OF 24/EA FROM MILL (LP 9/15/98)",
+        "BAG CLAMP BLOCK FEED ROLLER SHOE Ordered on blanket order with releases to reduce price. GJ 3/19/04 min/max increased to 100/200 per Adam Baker request by nsp 1/21/04 Blanket agreement set up with Dalton 11/13/03 for six-month requirements at $3.46 ea. Min/max increased to 50/150 to cover the order requirement of 100 units. gj 11/13/03 INCREASE MIN/MAX FROM 25/50 TO 50/100 PER D. PAIR  6/17/97",
+        "18CGV-2, .31 HP, 1750 RPM.",
+        "SIEMENS CONTROLLER FOR PART FILL AUTOFILLER. p/n 555-1103 is obsolete replaced with 555-1105 per Samantha/AWC (lp 11/18/98)",
+        "REBUILD KIT FOR EURODRIVE  (123668 AND 123667 )",
+        "OLD ASCO P/N 8211C73  S/N 637025  MIN MAX SET TO 1&2 VS 0&1 11/30/94 110V 50HZ; 120V 60HZ USED ON CONTINUOUS LUBE SYSTEM M/M from 2/2 TO 0/1 per S.Wilhelm,KE 7/18/07.",
+        "CENTER SLEEVE FOR PALLETINVERTER COUPLERCOMPLETE ASSEMBLY IS 103646",
+        "FLOW METER FOR SLIPSHEET AIRKNIFE 0-50 FCFH",
+        "M/M from 3/3 TO 1/1 per G.Johnson,KE 5/4/12. TRD MANUFACTURING ,INC.  AC 312 Change mfg. p/n from Lin-Act LC-1-05 to Parker 1347570031. Parker bought out Lin-Act.  su 7/1/05",
+        "PICKUP PIN FOR ROTARY  (LONG) M/M from 5/6 TO 3/3 per G.Johnson,KE 1/19/12. Re Quote,cost sensitive"
+      ],
+      "data_categories": {
+        "other": 469,
+        "valve": 66,
+        "bearing": 55,
+        "motor": 286,
+        "filter": 34,
+        "relay": 9,
+        "sensor": 6,
+        "switch": 14,
+        "seal": 26,
+        "cable": 13,
+        "pump": 12,
+        "belt": 8,
+        "gear": 2
+      }
+    },
+    "documentation": {
+      "name": "documentation",
+      "total_records": 19912,
+      "null_count": 3551,
+      "unique_count": 15298,
+      "avg_length": 35.78892125351547,
+      "common_patterns": [
+        {
+          "pattern": "\\bFKM\\ elastomer\\ approved\\ per\\ 92\\.T\\-1329\\ and\\ spec\\ 75\\-4\\b",
+          "frequency": 3,
+          "confidence": 0.003,
+          "examples": [
+            "FKM elastomer approved per 92.T-1329 and spec 75-4",
+            "FKM elastomer approved per 92.T-1329 and spec 75-4",
+            "FKM elastomer approved per 92.T-1329 and spec 75-4"
+          ],
+          "pattern_type": "value"
+        },
+        {
+          "pattern": "\\bM/M\\ 2/2\\ To\\ 1/1\\ per\\ G\\.Johnson\\ KE\\ 7/23/14\\.\\b",
+          "frequency": 2,
+          "confidence": 0.002,
+          "examples": [
+            "M/M 2/2 To 1/1 per G.Johnson KE 7/23/14.",
+            "M/M 2/2 To 1/1 per G.Johnson KE 7/23/14."
+          ],
+          "pattern_type": "value"
+        },
+        {
+          "pattern": "\\bM/M\\ 2/4\\ TO\\ 2/2\\ per\\ G\\.Johnson\\ KE\\ 7/9/14\\.\\b",
+          "frequency": 2,
+          "confidence": 0.002,
+          "examples": [
+            "M/M 2/4 TO 2/2 per G.Johnson KE 7/9/14.",
+            "M/M 2/4 TO 2/2 per G.Johnson KE 7/9/14."
+          ],
+          "pattern_type": "value"
+        },
+        {
+          "pattern": "\\bBack\\ to\\ C\\ flag\\ per\\ Sitha\\ KE\\ 6/1/2017\\b",
+          "frequency": 2,
+          "confidence": 0.002,
+          "examples": [
+            "Back to C flag per Sitha KE 6/1/2017",
+            "Back to C flag per Sitha KE 6/1/2017"
+          ],
+          "pattern_type": "value"
+        },
+        {
+          "pattern": "\\bM/M\\ 3/4\\ TO\\ 3/3\\ per\\ G\\.Johnson\\ KE\\ 7/12/13\\.\\b",
+          "frequency": 2,
+          "confidence": 0.002,
+          "examples": [
+            "M/M 3/4 TO 3/3 per G.Johnson KE 7/12/13.",
+            "M/M 3/4 TO 3/3 per G.Johnson KE 7/12/13."
+          ],
+          "pattern_type": "value"
+        },
+        {
+          "pattern": "\\bBack\\ to\\ C\\ flag\\ per\\ Sitha\\ KE\\ 6/1/2017\\.\\b",
+          "frequency": 2,
+          "confidence": 0.002,
+          "examples": [
+            "Back to C flag per Sitha KE 6/1/2017.",
+            "Back to C flag per Sitha KE 6/1/2017."
+          ],
+          "pattern_type": "value"
+        },
+        {
+          "pattern": "\\bM/M\\ from\\ 3/4\\ TO\\ 2/2\\ per\\ G\\.Johnson\\ KE\\ 8/2/12\\.\\b",
+          "frequency": 2,
+          "confidence": 0.002,
+          "examples": [
+            "M/M from 3/4 TO 2/2 per G.Johnson KE 8/2/12.",
+            "M/M from 3/4 TO 2/2 per G.Johnson KE 8/2/12."
+          ],
+          "pattern_type": "value"
+        },
+        {
+          "pattern": "\\bM/M\\ CHANGED\\ TO\\ 1/1\\ PER\\ G\\ JOHNSON\\ 4/3/17\\-BC\\b",
+          "frequency": 2,
+          "confidence": 0.002,
+          "examples": [
+            "M/M CHANGED TO 1/1 PER G JOHNSON 4/3/17-BC",
+            "M/M CHANGED TO 1/1 PER G JOHNSON 4/3/17-BC"
+          ],
+          "pattern_type": "value"
+        }
+      ],
+      "value_samples": [
+        "17 METER",
+        "S/N 376214 S/N 376262",
+        "MICRO SWITCH BZ-2RQ1-A2",
+        "ITEM OBSOLETED.REPLACEMENT RECOMMENDED STEARNS 1-0",
+        "PARTFILL HOT STAMP DIE SLUGS 1/2\" LONG L-HEAD TYPE",
+        "MOUNTED BALL BEARING 1.25\"BORE DIAMETER WITH MOUNT",
+        "CHANGE REQUEST TO MAX 10 INSTEAD OF 16  DUE TO COS",
+        "13687 USED IN THE CAMCO GEARBOXES ON THE TVP MACHINE",
+        "USED ON NEW CENTRAL DRIVE.",
+        "G.E. P/N V37110 HK SYS P/N 279Z20106D7",
+        "DN3/4\" GASKET DIN 32676 SERIE C         (ASME BPE)",
+        "M/M CHANGED TO 1/1 PER G JOHNSON 3/27/17-BC",
+        "M/M changed from 3/4 to 2/2 per G.Johnson.7/15/08(",
+        "THIS PART IS REPLACED BY PART# 142815 2/7/18 JP",
+        "Taken off Hold status KE 10/28/2016",
+        "SERIAL # OF ORIGINAL SPARE PART 049",
+        "NO longer refurbished KE 8/1/12.",
+        "FIBRO 202.21.040.224 GREEN DOT Change Mfg. P/N from 202.21-040.220 to 202.21.040.224. P/N change only. STA. 4 and 5 WELDING USED ON STATION 5 COLPITT 1 and STATION 4and5 COLPITT 2",
+        "IDEC       RH1BUDC12V",
+        "SIGNET P51530-P1 USE ON CARBON FILTERS AND DI TRAINS. APPLICABLE SUBSTITUTES FOR MODELS."
+      ],
+      "data_categories": {
+        "other": 667,
+        "switch": 14,
+        "motor": 141,
+        "valve": 57,
+        "seal": 25,
+        "filter": 25,
+        "pump": 22,
+        "gear": 7,
+        "cable": 10,
+        "belt": 2,
+        "bearing": 22,
+        "relay": 6,
+        "sensor": 2
+      }
+    }
+  },
+  "extracted_patterns": [
+    {
+      "pattern_text": "find\\s+(?:part\\s+)?(?:number\\s+)?([A-Za-z0-9\\-\\.]{3,})",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "direct part number search",
+      "target_column": "part_number",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "search\\s+(?:for\\s+)?(?:part\\s+)?([A-Za-z0-9\\-\\.]{3,})",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "search part number",
+      "target_column": "part_number",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:show|get|display)\\s+(?:me\\s+)?(?:part\\s+)?([A-Za-z0-9\\-\\.]{3,})",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "show part number",
+      "target_column": "part_number",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "([A-Za-z]\\d{5,})",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "direct part number pattern",
+      "target_column": "part_number",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(\\d{6,})",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "numeric part number",
+      "target_column": "part_number",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "#\\s*([A-Za-z0-9\\-\\.]{3,})",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "hash part number",
+      "target_column": "part_number",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:find|search|show|get)\\s+.*valve.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "search for VALVE",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\s+)?need\\s+.*valve.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "need VALVE",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:looking\\s+for|want)\\s+.*valve.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "looking for VALVE",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:find|search|show|get)\\s+.*switch.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "search for SWITCH",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\s+)?need\\s+.*switch.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "need SWITCH",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:looking\\s+for|want)\\s+.*switch.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "looking for SWITCH",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:find|search|show|get)\\s+.*bearing.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "search for BEARING",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\s+)?need\\s+.*bearing.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "need BEARING",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:looking\\s+for|want)\\s+.*bearing.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "looking for BEARING",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:find|search|show|get)\\s+.*belt.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "search for BELT",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\s+)?need\\s+.*belt.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "need BELT",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:looking\\s+for|want)\\s+.*belt.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "looking for BELT",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:find|search|show|get)\\s+.*cable.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "search for CABLE",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\s+)?need\\s+.*cable.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "need CABLE",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:looking\\s+for|want)\\s+.*cable.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "looking for CABLE",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:find|search|show|get)\\s+.*cylinder.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "search for CYLINDER",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\s+)?need\\s+.*cylinder.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "need CYLINDER",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:looking\\s+for|want)\\s+.*cylinder.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "looking for CYLINDER",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:find|search|show|get)\\s+.*kit.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "search for KIT",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\s+)?need\\s+.*kit.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "need KIT",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:looking\\s+for|want)\\s+.*kit.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "looking for KIT",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:find|search|show|get)\\s+.*drive.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "search for DRIVE",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\s+)?need\\s+.*drive.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "need DRIVE",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:looking\\s+for|want)\\s+.*drive.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "looking for DRIVE",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:find|search|show|get)\\s+.*motor.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "search for MOTOR",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\s+)?need\\s+.*motor.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "need MOTOR",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:looking\\s+for|want)\\s+.*motor.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "looking for MOTOR",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:find|search|show|get)\\s+.*amp.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "search for AMP",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\s+)?need\\s+.*amp.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "need AMP",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:looking\\s+for|want)\\s+.*amp.*",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "looking for AMP",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\'?m\\s+)?looking\\s+for\\s+(.+)",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "looking for text",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\s+)?need\\s+(?:a\\s+|an\\s+|some\\s+)?(.+)",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "need text",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "find\\s+(?:me\\s+)?(?:a\\s+|an\\s+|some\\s+)?(.+)",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "find text",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "what\\s+(.+?)\\s+do\\s+(?:we\\s+|you\\s+)?have(?:\\?|$)",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "what do we have",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "show\\s+(?:me\\s+)?(.+)",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "show me text",
+      "target_column": "name",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:parts\\s+)?(?:from|by|made\\s+by)\\s+hospira10671",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.95,
+      "description": "parts from HOSPIRA10671",
+      "target_column": "oem_mfg",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "hospira10671\\s+(?:parts|components)",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.95,
+      "description": "HOSPIRA10671 parts",
+      "target_column": "oem_mfg",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:parts\\s+)?(?:from|by|made\\s+by)\\s+allen brad",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.95,
+      "description": "parts from ALLEN BRAD",
+      "target_column": "oem_mfg",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "allen brad\\s+(?:parts|components)",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.95,
+      "description": "ALLEN BRAD parts",
+      "target_column": "oem_mfg",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:parts\\s+)?(?:from|by|made\\s+by)\\s+festo",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.95,
+      "description": "parts from FESTO",
+      "target_column": "oem_mfg",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "festo\\s+(?:parts|components)",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.95,
+      "description": "FESTO parts",
+      "target_column": "oem_mfg",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:parts\\s+)?(?:from|by|made\\s+by)\\s+smc cylinder",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.95,
+      "description": "parts from SMC CYLINDER",
+      "target_column": "oem_mfg",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "smc cylinder\\s+(?:parts|components)",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.95,
+      "description": "SMC CYLINDER parts",
+      "target_column": "oem_mfg",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:parts\\s+)?(?:from|by|made\\s+by)\\s+inhouse",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.95,
+      "description": "parts from INHOUSE",
+      "target_column": "oem_mfg",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "inhouse\\s+(?:parts|components)",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.95,
+      "description": "INHOUSE parts",
+      "target_column": "oem_mfg",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:parts\\s+)?(?:from\\s+|by\\s+|made\\s+by\\s+)(.+?)(?:\\?|$)",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "parts from manufacturer",
+      "target_column": "oem_mfg",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(.+?)\\s+(?:parts|components)(?:\\?|$)",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.95,
+      "description": "manufacturer parts",
+      "target_column": "oem_mfg",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "what\\s+(.+?)\\s+(?:parts|components)\\s+do\\s+(?:we\\s+|you\\s+)?have(?:\\?|$)",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "what manufacturer parts",
+      "target_column": "oem_mfg",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:model\\s+|type\\s+|series\\s+)([A-Za-z0-9\\-\\.]+)",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "model number search",
+      "target_column": "model",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "for\\s+(?:model\\s+|type\\s+)?([A-Za-z0-9\\-\\.]+)",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "for model search",
+      "target_column": "model",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "([A-Za-z0-9\\-\\.]{3,})\\s+(?:model|type|series)",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.95,
+      "description": "model with suffix",
+      "target_column": "model",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:find|search|show|get)\\s+.*per.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "search for PER",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\s+)?need\\s+.*per.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "need PER",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:looking\\s+for|want)\\s+.*per.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "looking for PER",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:find|search|show|get)\\s+.*from.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "search for FROM",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\s+)?need\\s+.*from.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "need FROM",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:looking\\s+for|want)\\s+.*from.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "looking for FROM",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:find|search|show|get)\\s+.*for.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "search for FOR",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\s+)?need\\s+.*for.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "need FOR",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:looking\\s+for|want)\\s+.*for.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "looking for FOR",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:find|search|show|get)\\s+.*to per.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "search for TO PER",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\s+)?need\\s+.*to per.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "need TO PER",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:looking\\s+for|want)\\s+.*to per.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "looking for TO PER",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:find|search|show|get)\\s+.*from to.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "search for FROM TO",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\s+)?need\\s+.*from to.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "need FROM TO",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:looking\\s+for|want)\\s+.*from to.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "looking for FROM TO",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:find|search|show|get)\\s+.*johnson.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "search for JOHNSON",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\s+)?need\\s+.*johnson.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "need JOHNSON",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:looking\\s+for|want)\\s+.*johnson.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "looking for JOHNSON",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:find|search|show|get)\\s+.*used.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "search for USED",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\s+)?need\\s+.*used.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "need USED",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:looking\\s+for|want)\\s+.*used.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "looking for USED",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:find|search|show|get)\\s+.*min.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "search for MIN",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\s+)?need\\s+.*min.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "need MIN",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:looking\\s+for|want)\\s+.*min.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "looking for MIN",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:find|search|show|get)\\s+.*changed.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "search for CHANGED",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\s+)?need\\s+.*changed.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "need CHANGED",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:looking\\s+for|want)\\s+.*changed.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "looking for CHANGED",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:find|search|show|get)\\s+.*max.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "search for MAX",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\s+)?need\\s+.*max.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "need MAX",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:looking\\s+for|want)\\s+.*max.*",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "looking for MAX",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\'?m\\s+)?looking\\s+for\\s+(.+)",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "looking for text",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\s+)?need\\s+(?:a\\s+|an\\s+|some\\s+)?(.+)",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "need text",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "find\\s+(?:me\\s+)?(?:a\\s+|an\\s+|some\\s+)?(.+)",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "find text",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "what\\s+(.+?)\\s+do\\s+(?:we\\s+|you\\s+)?have(?:\\?|$)",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "what do we have",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "show\\s+(?:me\\s+)?(.+)",
+      "pattern_type": "extraction",
+      "priority": 0.9,
+      "success_rate": 0.85,
+      "description": "show me text",
+      "target_column": "notes",
+      "source": "database_analysis"
+    },
+    {
+      "pattern_text": "(.+?)\\s+from\\s+(.+?)(?:\\s+model\\s+(.+?))?(?:\\?|$)",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.9,
+      "description": "part from manufacturer with optional model",
+      "target_columns": [
+        "name",
+        "oem_mfg",
+        "model"
+      ],
+      "source": "combination_analysis"
+    },
+    {
+      "pattern_text": "(.+?)\\s+(?:part\\s+)?number\\s+([A-Za-z0-9\\-\\.]+)",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.9,
+      "description": "description with part number",
+      "target_columns": [
+        "name",
+        "part_number"
+      ],
+      "source": "combination_analysis"
+    },
+    {
+      "pattern_text": "(.+?)\\s+for\\s+(.+?)\\s+model\\s+(.+?)(?:\\?|$)",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.9,
+      "description": "part for equipment model",
+      "target_columns": [
+        "name",
+        "oem_mfg",
+        "model"
+      ],
+      "source": "combination_analysis"
+    },
+    {
+      "pattern_text": "show\\s+(?:me\\s+)?(?:all\\s+)?(.+?)\\s+(?:parts|components)\\s+(?:for\\s+)?(.+?)(?:\\?|$)",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.9,
+      "description": "show parts for equipment",
+      "target_columns": [
+        "name",
+        "description"
+      ],
+      "source": "combination_analysis"
+    },
+    {
+      "pattern_text": "what\\s+(.+?)\\s+(?:parts|components)\\s+do\\s+we\\s+have\\s+from\\s+(.+?)(?:\\?|$)",
+      "pattern_type": "extraction",
+      "priority": 1.0,
+      "success_rate": 0.9,
+      "description": "what parts do we have from manufacturer",
+      "target_columns": [
+        "name",
+        "oem_mfg"
+      ],
+      "source": "combination_analysis"
+    },
+    {
+      "pattern_text": "(?:find|search|show|get)\\s+(?:me\\s+)?(?:a\\s+|an\\s+|some\\s+)?pump.*",
+      "pattern_type": "general",
+      "priority": 0.85,
+      "success_rate": 0.8,
+      "description": "search for pump",
+      "equipment_category": "pump",
+      "source": "contextual_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\s+)?need\\s+(?:a\\s+|an\\s+|some\\s+)?pump.*",
+      "pattern_type": "general",
+      "priority": 0.85,
+      "success_rate": 0.8,
+      "description": "need pump",
+      "equipment_category": "pump",
+      "source": "contextual_analysis"
+    },
+    {
+      "pattern_text": "what\\s+pump.*do\\s+(?:we\\s+|you\\s+)?have(?:\\?|$)",
+      "pattern_type": "general",
+      "priority": 0.85,
+      "success_rate": 0.8,
+      "description": "what pump do we have",
+      "equipment_category": "pump",
+      "source": "contextual_analysis"
+    },
+    {
+      "pattern_text": "pump\\s+(?:parts|components|assembly)",
+      "pattern_type": "general",
+      "priority": 0.85,
+      "success_rate": 0.8,
+      "description": "pump parts",
+      "equipment_category": "pump",
+      "source": "contextual_analysis"
+    },
+    {
+      "pattern_text": "(?:find|search|show|get)\\s+(?:me\\s+)?(?:a\\s+|an\\s+|some\\s+)?switch.*",
+      "pattern_type": "general",
+      "priority": 0.85,
+      "success_rate": 0.8,
+      "description": "search for switch",
+      "equipment_category": "switch",
+      "source": "contextual_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\s+)?need\\s+(?:a\\s+|an\\s+|some\\s+)?switch.*",
+      "pattern_type": "general",
+      "priority": 0.85,
+      "success_rate": 0.8,
+      "description": "need switch",
+      "equipment_category": "switch",
+      "source": "contextual_analysis"
+    },
+    {
+      "pattern_text": "what\\s+switch.*do\\s+(?:we\\s+|you\\s+)?have(?:\\?|$)",
+      "pattern_type": "general",
+      "priority": 0.85,
+      "success_rate": 0.8,
+      "description": "what switch do we have",
+      "equipment_category": "switch",
+      "source": "contextual_analysis"
+    },
+    {
+      "pattern_text": "switch\\s+(?:parts|components|assembly)",
+      "pattern_type": "general",
+      "priority": 0.85,
+      "success_rate": 0.8,
+      "description": "switch parts",
+      "equipment_category": "switch",
+      "source": "contextual_analysis"
+    },
+    {
+      "pattern_text": "(?:find|search|show|get)\\s+(?:me\\s+)?(?:a\\s+|an\\s+|some\\s+)?motor.*",
+      "pattern_type": "general",
+      "priority": 0.85,
+      "success_rate": 0.8,
+      "description": "search for motor",
+      "equipment_category": "motor",
+      "source": "contextual_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\s+)?need\\s+(?:a\\s+|an\\s+|some\\s+)?motor.*",
+      "pattern_type": "general",
+      "priority": 0.85,
+      "success_rate": 0.8,
+      "description": "need motor",
+      "equipment_category": "motor",
+      "source": "contextual_analysis"
+    },
+    {
+      "pattern_text": "what\\s+motor.*do\\s+(?:we\\s+|you\\s+)?have(?:\\?|$)",
+      "pattern_type": "general",
+      "priority": 0.85,
+      "success_rate": 0.8,
+      "description": "what motor do we have",
+      "equipment_category": "motor",
+      "source": "contextual_analysis"
+    },
+    {
+      "pattern_text": "motor\\s+(?:parts|components|assembly)",
+      "pattern_type": "general",
+      "priority": 0.85,
+      "success_rate": 0.8,
+      "description": "motor parts",
+      "equipment_category": "motor",
+      "source": "contextual_analysis"
+    },
+    {
+      "pattern_text": "(?:find|search|show|get)\\s+(?:me\\s+)?(?:a\\s+|an\\s+|some\\s+)?bearing.*",
+      "pattern_type": "general",
+      "priority": 0.85,
+      "success_rate": 0.8,
+      "description": "search for bearing",
+      "equipment_category": "bearing",
+      "source": "contextual_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\s+)?need\\s+(?:a\\s+|an\\s+|some\\s+)?bearing.*",
+      "pattern_type": "general",
+      "priority": 0.85,
+      "success_rate": 0.8,
+      "description": "need bearing",
+      "equipment_category": "bearing",
+      "source": "contextual_analysis"
+    },
+    {
+      "pattern_text": "what\\s+bearing.*do\\s+(?:we\\s+|you\\s+)?have(?:\\?|$)",
+      "pattern_type": "general",
+      "priority": 0.85,
+      "success_rate": 0.8,
+      "description": "what bearing do we have",
+      "equipment_category": "bearing",
+      "source": "contextual_analysis"
+    },
+    {
+      "pattern_text": "bearing\\s+(?:parts|components|assembly)",
+      "pattern_type": "general",
+      "priority": 0.85,
+      "success_rate": 0.8,
+      "description": "bearing parts",
+      "equipment_category": "bearing",
+      "source": "contextual_analysis"
+    },
+    {
+      "pattern_text": "(?:find|search|show|get)\\s+(?:me\\s+)?(?:a\\s+|an\\s+|some\\s+)?sensor.*",
+      "pattern_type": "general",
+      "priority": 0.85,
+      "success_rate": 0.8,
+      "description": "search for sensor",
+      "equipment_category": "sensor",
+      "source": "contextual_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\s+)?need\\s+(?:a\\s+|an\\s+|some\\s+)?sensor.*",
+      "pattern_type": "general",
+      "priority": 0.85,
+      "success_rate": 0.8,
+      "description": "need sensor",
+      "equipment_category": "sensor",
+      "source": "contextual_analysis"
+    },
+    {
+      "pattern_text": "what\\s+sensor.*do\\s+(?:we\\s+|you\\s+)?have(?:\\?|$)",
+      "pattern_type": "general",
+      "priority": 0.85,
+      "success_rate": 0.8,
+      "description": "what sensor do we have",
+      "equipment_category": "sensor",
+      "source": "contextual_analysis"
+    },
+    {
+      "pattern_text": "sensor\\s+(?:parts|components|assembly)",
+      "pattern_type": "general",
+      "priority": 0.85,
+      "success_rate": 0.8,
+      "description": "sensor parts",
+      "equipment_category": "sensor",
+      "source": "contextual_analysis"
+    },
+    {
+      "pattern_text": "(?:find|search|show|get)\\s+(?:me\\s+)?(?:a\\s+|an\\s+|some\\s+)?valve.*",
+      "pattern_type": "general",
+      "priority": 0.85,
+      "success_rate": 0.8,
+      "description": "search for valve",
+      "equipment_category": "valve",
+      "source": "contextual_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\s+)?need\\s+(?:a\\s+|an\\s+|some\\s+)?valve.*",
+      "pattern_type": "general",
+      "priority": 0.85,
+      "success_rate": 0.8,
+      "description": "need valve",
+      "equipment_category": "valve",
+      "source": "contextual_analysis"
+    },
+    {
+      "pattern_text": "what\\s+valve.*do\\s+(?:we\\s+|you\\s+)?have(?:\\?|$)",
+      "pattern_type": "general",
+      "priority": 0.85,
+      "success_rate": 0.8,
+      "description": "what valve do we have",
+      "equipment_category": "valve",
+      "source": "contextual_analysis"
+    },
+    {
+      "pattern_text": "valve\\s+(?:parts|components|assembly)",
+      "pattern_type": "general",
+      "priority": 0.85,
+      "success_rate": 0.8,
+      "description": "valve parts",
+      "equipment_category": "valve",
+      "source": "contextual_analysis"
+    },
+    {
+      "pattern_text": "(?:find|search|show|get)\\s+(?:me\\s+)?(?:a\\s+|an\\s+|some\\s+)?filter.*",
+      "pattern_type": "general",
+      "priority": 0.85,
+      "success_rate": 0.8,
+      "description": "search for filter",
+      "equipment_category": "filter",
+      "source": "contextual_analysis"
+    },
+    {
+      "pattern_text": "(?:i\\s+)?need\\s+(?:a\\s+|an\\s+|some\\s+)?filter.*",
+      "pattern_type": "general",
+      "priority": 0.85,
+      "success_rate": 0.8,
+      "description": "need filter",
+      "equipment_category": "filter",
+      "source": "contextual_analysis"
+    },
+    {
+      "pattern_text": "what\\s+filter.*do\\s+(?:we\\s+|you\\s+)?have(?:\\?|$)",
+      "pattern_type": "general",
+      "priority": 0.85,
+      "success_rate": 0.8,
+      "description": "what filter do we have",
+      "equipment_category": "filter",
+      "source": "contextual_analysis"
+    },
+    {
+      "pattern_text": "filter\\s+(?:parts|components|assembly)",
+      "pattern_type": "general",
+      "priority": 0.85,
+      "success_rate": 0.8,
+      "description": "filter parts",
+      "equipment_category": "filter",
+      "source": "contextual_analysis"
+    }
+  ],
+  "search_intents": [
+    {
+      "name": "FIND_PART",
+      "description": "Find parts by number, name, or characteristics",
+      "priority": 1.0,
+      "search_method": "comprehensive_part_search",
+      "pattern_count": 41,
+      "source": "database_analysis"
+    },
+    {
+      "name": "FIND_BY_MANUFACTURER",
+      "description": "Find parts by manufacturer or brand",
+      "priority": 0.9,
+      "search_method": "comprehensive_part_search",
+      "top_manufacturers": [
+        "\\bHOSPIRA10671\\b",
+        "\\bALLEN\\ BRAD\\b",
+        "\\bFESTO\\b",
+        "\\bSMC\\ CYLINDER\\b",
+        "\\bINHOUSE\\b"
+      ],
+      "source": "database_analysis"
+    },
+    {
+      "name": "FIND_BEARING",
+      "description": "Find bearing-specific parts and assemblies",
+      "priority": 0.95,
+      "search_method": "comprehensive_part_search",
+      "equipment_category": "bearing",
+      "estimated_parts": 162,
+      "source": "database_analysis"
+    },
+    {
+      "name": "FIND_FILTER",
+      "description": "Find filter-specific parts and assemblies",
+      "priority": 0.95,
+      "search_method": "comprehensive_part_search",
+      "equipment_category": "filter",
+      "estimated_parts": 110,
+      "source": "database_analysis"
+    },
+    {
+      "name": "FIND_MOTOR",
+      "description": "Find motor-specific parts and assemblies",
+      "priority": 0.95,
+      "search_method": "comprehensive_part_search",
+      "equipment_category": "motor",
+      "estimated_parts": 1642,
+      "source": "database_analysis"
+    },
+    {
+      "name": "FIND_PUMP",
+      "description": "Find pump-specific parts and assemblies",
+      "priority": 0.95,
+      "search_method": "comprehensive_part_search",
+      "equipment_category": "pump",
+      "estimated_parts": 58,
+      "source": "database_analysis"
+    },
+    {
+      "name": "FIND_SENSOR",
+      "description": "Find sensor-specific parts and assemblies",
+      "priority": 0.95,
+      "search_method": "comprehensive_part_search",
+      "equipment_category": "sensor",
+      "estimated_parts": 23,
+      "source": "database_analysis"
+    },
+    {
+      "name": "FIND_SWITCH",
+      "description": "Find switch-specific parts and assemblies",
+      "priority": 0.95,
+      "search_method": "comprehensive_part_search",
+      "equipment_category": "switch",
+      "estimated_parts": 83,
+      "source": "database_analysis"
+    },
+    {
+      "name": "FIND_VALVE",
+      "description": "Find valve-specific parts and assemblies",
+      "priority": 0.95,
+      "search_method": "comprehensive_part_search",
+      "equipment_category": "valve",
+      "estimated_parts": 236,
+      "source": "database_analysis"
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "per",
+      "weight": 2.0,
+      "category": "descriptor",
+      "frequency": 477,
+      "source": "database_analysis"
+    },
+    {
+      "keyword": "from",
+      "weight": 2.0,
+      "category": "descriptor",
+      "frequency": 312,
+      "source": "database_analysis"
+    },
+    {
+      "keyword": "for",
+      "weight": 2.0,
+      "category": "descriptor",
+      "frequency": 287,
+      "source": "database_analysis"
+    },
+    {
+      "keyword": "johnson",
+      "weight": 2.0,
+      "category": "descriptor",
+      "frequency": 180,
+      "source": "database_analysis"
+    },
+    {
+      "keyword": "used",
+      "weight": 2.0,
+      "category": "descriptor",
+      "frequency": 176,
+      "source": "database_analysis"
+    },
+    {
+      "keyword": "min",
+      "weight": 2.0,
+      "category": "descriptor",
+      "frequency": 155,
+      "source": "database_analysis"
+    },
+    {
+      "keyword": "changed",
+      "weight": 2.0,
+      "category": "descriptor",
+      "frequency": 153,
+      "source": "database_analysis"
+    },
+    {
+      "keyword": "max",
+      "weight": 2.0,
+      "category": "descriptor",
+      "frequency": 147,
+      "source": "database_analysis"
+    },
+    {
+      "keyword": "valve",
+      "weight": 1.62,
+      "category": "equipment",
+      "frequency": 62,
+      "source": "database_analysis"
+    },
+    {
+      "keyword": "switch",
+      "weight": 1.52,
+      "category": "equipment",
+      "frequency": 52,
+      "source": "database_analysis"
+    },
+    {
+      "keyword": "bearing",
+      "weight": 1.52,
+      "category": "equipment",
+      "frequency": 52,
+      "source": "database_analysis"
+    },
+    {
+      "keyword": "belt",
+      "weight": 1.46,
+      "category": "equipment",
+      "frequency": 46,
+      "source": "database_analysis"
+    },
+    {
+      "keyword": "cable",
+      "weight": 1.39,
+      "category": "equipment",
+      "frequency": 39,
+      "source": "database_analysis"
+    },
+    {
+      "keyword": "cylinder",
+      "weight": 1.33,
+      "category": "descriptor",
+      "frequency": 33,
+      "source": "database_analysis"
+    },
+    {
+      "keyword": "kit",
+      "weight": 1.33,
+      "category": "descriptor",
+      "frequency": 33,
+      "source": "database_analysis"
+    },
+    {
+      "keyword": "drive",
+      "weight": 1.32,
+      "category": "descriptor",
+      "frequency": 32,
+      "source": "database_analysis"
+    },
+    {
+      "keyword": "motor",
+      "weight": 1.25,
+      "category": "equipment",
+      "frequency": 25,
+      "source": "database_analysis"
+    },
+    {
+      "keyword": "amp",
+      "weight": 1.24,
+      "category": "descriptor",
+      "frequency": 24,
+      "source": "database_analysis"
+    },
+    {
+      "keyword": "find",
+      "weight": 1.5,
+      "category": "action",
+      "frequency": 0,
+      "source": "standard"
+    },
+    {
+      "keyword": "search",
+      "weight": 1.4,
+      "category": "action",
+      "frequency": 0,
+      "source": "standard"
+    },
+    {
+      "keyword": "show",
+      "weight": 1.3,
+      "category": "action",
+      "frequency": 0,
+      "source": "standard"
+    },
+    {
+      "keyword": "get",
+      "weight": 1.2,
+      "category": "action",
+      "frequency": 0,
+      "source": "standard"
+    },
+    {
+      "keyword": "need",
+      "weight": 1.2,
+      "category": "action",
+      "frequency": 0,
+      "source": "standard"
+    },
+    {
+      "keyword": "looking",
+      "weight": 1.1,
+      "category": "action",
+      "frequency": 0,
+      "source": "standard"
+    },
+    {
+      "keyword": "display",
+      "weight": 1.0,
+      "category": "action",
+      "frequency": 0,
+      "source": "standard"
+    },
+    {
+      "keyword": "list",
+      "weight": 1.0,
+      "category": "action",
+      "frequency": 0,
+      "source": "standard"
+    }
+  ],
+  "generation_time": "2025-06-10T14:09:08.477309"
+}

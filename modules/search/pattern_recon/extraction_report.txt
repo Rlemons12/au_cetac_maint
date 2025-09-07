@@ -1,0 +1,201 @@
+================================================================================
+DATABASE PATTERN EXTRACTION ANALYSIS REPORT
+================================================================================
+Generated at: 2025-06-10 14:09:08
+
+DATABASE SUMMARY
+----------------------------------------
+Estimated total records: 19,912
+Analyzed columns: 9
+Total unique values: 87,960
+
+COLUMN PROFILES
+----------------------------------------
+Column: part_number
+  Records: 19,912
+  Unique values: 19,912
+  Null values: 0
+  Average length: 7.0
+  Top patterns: 1
+  Categories: other(1000)
+
+Column: name
+  Records: 19,912
+  Unique values: 16,975
+  Null values: 0
+  Average length: 21.8
+  Top patterns: 10
+  Categories: other(395), motor(160), valve(89), bearing(78), seal(53)
+
+Column: oem_mfg
+  Records: 19,912
+  Unique values: 1,893
+  Null values: 19
+  Average length: 9.7
+  Top patterns: 10
+  Categories: other(880), motor(38), valve(23), filter(17), pump(14)
+
+Column: model
+  Records: 19,912
+  Unique values: 19,716
+  Null values: 1
+  Average length: 10.9
+  Top patterns: 3
+  Categories: other(982), motor(17), valve(1)
+
+Column: class_flag
+  Records: 19,912
+  Unique values: 15
+  Null values: 0
+  Average length: 3.0
+  Top patterns: 9
+  Categories: other(1000)
+
+Column: ud6
+  Records: 19,912
+  Unique values: 2
+  Null values: 0
+  Average length: 6.0
+  Top patterns: 2
+  Categories: motor(1000)
+
+Column: type
+  Records: 19,912
+  Unique values: 140
+  Null values: 0
+  Average length: 3.1
+  Top patterns: 10
+  Categories: other(999), filter(1)
+
+Column: notes
+  Records: 19,912
+  Unique values: 14,009
+  Null values: 4,027
+  Average length: 69.6
+  Top patterns: 10
+  Categories: other(469), motor(286), valve(66), bearing(55), filter(34)
+
+Column: documentation
+  Records: 19,912
+  Unique values: 15,298
+  Null values: 3,551
+  Average length: 35.8
+  Top patterns: 8
+  Categories: other(667), motor(141), valve(57), seal(25), filter(25)
+
+EXTRACTED PATTERNS
+----------------------------------------
+Total patterns: 125
+  extraction: 97
+  general: 28
+
+SAMPLE PATTERNS
+----------------------------------------
+1. find\s+(?:part\s+)?(?:number\s+)?([A-Za-z0-9\-\.]{3,})
+   Type: extraction, Priority: 1.0
+   Target: part_number
+
+2. search\s+(?:for\s+)?(?:part\s+)?([A-Za-z0-9\-\.]{3,})
+   Type: extraction, Priority: 1.0
+   Target: part_number
+
+3. (?:show|get|display)\s+(?:me\s+)?(?:part\s+)?([A-Za-z0-9\-\.]{3,})
+   Type: extraction, Priority: 1.0
+   Target: part_number
+
+4. ([A-Za-z]\d{5,})
+   Type: extraction, Priority: 1.0
+   Target: part_number
+
+5. (\d{6,})
+   Type: extraction, Priority: 1.0
+   Target: part_number
+
+6. #\s*([A-Za-z0-9\-\.]{3,})
+   Type: extraction, Priority: 1.0
+   Target: part_number
+
+7. (?:find|search|show|get)\s+.*valve.*
+   Type: extraction, Priority: 1.0
+   Target: name
+
+8. (?:i\s+)?need\s+.*valve.*
+   Type: extraction, Priority: 1.0
+   Target: name
+
+9. (?:looking\s+for|want)\s+.*valve.*
+   Type: extraction, Priority: 1.0
+   Target: name
+
+10. (?:find|search|show|get)\s+.*switch.*
+   Type: extraction, Priority: 1.0
+   Target: name
+
+GENERATED INTENTS
+----------------------------------------
+Intent: FIND_PART
+  Priority: 1.0
+  Description: Find parts by number, name, or characteristics
+
+Intent: FIND_BY_MANUFACTURER
+  Priority: 0.9
+  Description: Find parts by manufacturer or brand
+
+Intent: FIND_BEARING
+  Priority: 0.95
+  Description: Find bearing-specific parts and assemblies
+  Estimated matching parts: 162
+
+Intent: FIND_FILTER
+  Priority: 0.95
+  Description: Find filter-specific parts and assemblies
+  Estimated matching parts: 110
+
+Intent: FIND_MOTOR
+  Priority: 0.95
+  Description: Find motor-specific parts and assemblies
+  Estimated matching parts: 1642
+
+Intent: FIND_PUMP
+  Priority: 0.95
+  Description: Find pump-specific parts and assemblies
+  Estimated matching parts: 58
+
+Intent: FIND_SENSOR
+  Priority: 0.95
+  Description: Find sensor-specific parts and assemblies
+  Estimated matching parts: 23
+
+Intent: FIND_SWITCH
+  Priority: 0.95
+  Description: Find switch-specific parts and assemblies
+  Estimated matching parts: 83
+
+Intent: FIND_VALVE
+  Priority: 0.95
+  Description: Find valve-specific parts and assemblies
+  Estimated matching parts: 236
+
+KEYWORD ANALYSIS
+----------------------------------------
+Total keywords: 26
+  descriptor: 12
+  equipment: 6
+  action: 8
+
+Top keywords by weight:
+  per (descriptor, 2.0)
+  from (descriptor, 2.0)
+  for (descriptor, 2.0)
+  johnson (descriptor, 2.0)
+  used (descriptor, 2.0)
+  min (descriptor, 2.0)
+  changed (descriptor, 2.0)
+  max (descriptor, 2.0)
+  valve (equipment, 1.62)
+  switch (equipment, 1.52)
+  bearing (equipment, 1.52)
+  find (action, 1.5)
+  belt (equipment, 1.46)
+  search (action, 1.4)
+  cable (equipment, 1.39)

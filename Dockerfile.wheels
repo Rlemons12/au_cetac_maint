@@ -1,0 +1,77 @@
+# Multi-stage build: prebuild wheels, then install offline in final image
+# Set DOCKER_BUILDKIT=1 to take advantage of cache mounts during the wheels stage.
+
+############################
+# Base image with build deps
+############################
+FROM python:3.11-slim AS base
+
+# System dependencies for building wheels; adjust as needed
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    curl \
+    ca-certificates \
+    git \
+    && rm -rf /var/lib/apt/lists/*
+
+# Robust pip behavior
+ENV PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    PIP_DEFAULT_TIMEOUT=180 \
+    PIP_RETRIES=10 \
+    PIP_NO_INPUT=1
+
+WORKDIR /app
+
+############################
+# Stage 1: Build wheels
+############################
+FROM base AS wheels
+
+# Force CPU-only PyTorch wheels (avoids heavy CUDA downloads)
+# You can remove this if you truly need CUDA inside the image.
+ENV PIP_EXTRA_INDEX_URL=https://download.pytorch.org/whl/cpu
+
+# Copy only requirements.txt for layer caching
+COPY requirements.txt /app/requirements.txt
+
+# Build wheels for all dependencies into /wheels
+# BuildKit cache prevents re-downloading across builds
+RUN --mount=type=cache,target=/root/.cache/pip \
+    python -m pip install --upgrade pip && \
+    python -m pip wheel --wheel-dir /wheels --prefer-binary -r /app/requirements.txt
+
+############################
+# Final runtime image
+############################
+FROM python:3.11-slim AS runtime
+
+# Runtime libs for common scientific stacks & imaging; trim if unneeded
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    libstdc++6 \
+    libgomp1 \
+    libopenblas0 \
+    libjpeg62-turbo \
+    zlib1g \
+    && rm -rf /var/lib/apt/lists/*
+
+ENV PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    PIP_NO_INPUT=1
+
+WORKDIR /app
+
+# Copy prebuilt wheels and the source code
+COPY --from=wheels /wheels /wheels
+COPY . /app
+
+# Install all deps from local wheels only (no network)
+RUN python -m pip install --no-index --find-links=/wheels -r /app/requirements.txt
+
+# (Optional) Non-root user
+# RUN useradd -m appuser && chown -R appuser:appuser /app
+# USER appuser
+
+# (Optional) expose a port for web apps
+# EXPOSE 8000
+
+# Set your actual entrypoint/cmd here
+# CMD ["python", "-m", "your_package_or_entrypoint"]

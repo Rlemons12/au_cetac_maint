@@ -1,0 +1,142 @@
+I need the print for equipment {equipment_number}
+Show me the drawing for {equipment_number}
+Can you find the print for equipment number {equipment_number}?
+Where is the documentation for {equipment_number}?
+I'm looking for {equipment_number} prints
+Pull up the drawing for unit {equipment_number}
+Find me the print for {equipment_number}
+I need documentation for equipment {equipment_number}
+Can you locate drawing for {equipment_number}?
+Show me prints for unit {equipment_number}
+Where are the drawings for equipment {equipment_number}?
+I'm searching for {equipment_number} documentation
+Pull up {equipment_number} prints please
+Need the drawing for equipment number {equipment_number}
+Looking for prints of {equipment_number}
+Can you find {equipment_number} drawings?
+I need the schematic for {equipment_number}
+Show documentation for unit {equipment_number}
+Find drawings for equipment {equipment_number}
+Where is the print for {equipment_number} located?
+I'm looking for equipment {equipment_number} drawings
+Can you pull {equipment_number} prints?
+Need to see the drawing for {equipment_number}
+I need the print for the {equipment_name}
+Show me the drawing for the {equipment_name}
+Can you find prints for the {equipment_name} in area 3?
+Where are the drawings for the main {equipment_name}?
+I need documentation for the backup {equipment_name}
+Looking for prints related to {equipment_name}
+Find me the drawing for the {equipment_name}
+I'm searching for {equipment_name} prints
+Can you locate documentation for the {equipment_name}?
+Show me prints for the primary {equipment_name}
+Where is the drawing for the {equipment_name}?
+I need the schematic for the {equipment_name}
+Pull up prints for the {equipment_name} unit
+Looking for drawings of the {equipment_name}
+Can you find the {equipment_name} documentation?
+I'm looking for the {equipment_name} drawing
+Show me the print for the secondary {equipment_name}
+Need documentation for the {equipment_name} system
+Find the drawing for the {equipment_name} assembly
+Where are the prints for the {equipment_name} located?
+Can you pull up {equipment_name} drawings?
+I need the blueprint for the {equipment_name}
+Show drawings for the {equipment_name} unit
+I need drawing {drawing_number}
+Show me print {drawing_number}
+Can you pull up {drawing_number}?
+Where is drawing number {drawing_number}?
+I'm looking for {drawing_number}
+Find me {drawing_number} please
+I need to see drawing {drawing_number}
+Can you locate print {drawing_number}?
+Show me drawing number {drawing_number}
+Where is print {drawing_number} located?
+I'm searching for drawing {drawing_number}
+Pull up print number {drawing_number}
+Need to find drawing {drawing_number}
+Can you find print {drawing_number}?
+I'm looking for print number {drawing_number}
+Show documentation {drawing_number}
+Find drawing number {drawing_number}
+Where can I find {drawing_number}?
+I need print {drawing_number} urgently
+Can you display drawing {drawing_number}?
+Looking for dwg {drawing_number}
+Show me dwg number {drawing_number}
+Need the print {drawing_number}
+I need the {drawing_name}
+Show me the {drawing_name} for this unit
+Can you find the {drawing_name}?
+Where is the {drawing_name} located?
+I'm looking for the {drawing_name} drawing
+Pull up the {drawing_name} print
+Find me the {drawing_name}
+I need to see the {drawing_name}
+Can you locate the {drawing_name} document?
+Show the {drawing_name} please
+Where can I find the {drawing_name}?
+I'm searching for the {drawing_name}
+Need the {drawing_name} drawing
+Can you pull up the {drawing_name}?
+Looking for the {drawing_name} print
+Find the {drawing_name} documentation
+I need the {drawing_name} schematic
+Show me the {drawing_name} blueprint
+Where is the {drawing_name} drawing?
+Can you find the {drawing_name} diagram?
+I'm looking for the {drawing_name} layout
+Need to see the {drawing_name}
+Pull the {drawing_name} drawing
+I need the print for part # {spare_part_number}
+Show me the drawing for part number {spare_part_number}
+Can you find the print for spare part {spare_part_number}?
+Where is the documentation for part # {spare_part_number}?
+I'm looking for part {spare_part_number} prints
+Find me the drawing for spare part number {spare_part_number}
+What print shows part # {spare_part_number}?
+I need the assembly drawing that includes part {spare_part_number}
+Can you locate part number {spare_part_number} on drawings?
+Show me prints containing part # {spare_part_number}
+Where can I find part {spare_part_number} documentation?
+I need the drawing for component {spare_part_number}
+Looking for spare part {spare_part_number} prints
+Can you find drawings with part number {spare_part_number}?
+I'm searching for part # {spare_part_number} documentation
+Show the print for replacement part {spare_part_number}
+Need to find part number {spare_part_number} drawing
+Where is spare part {spare_part_number} shown?
+Can you pull up part # {spare_part_number} prints?
+I need documentation for part {spare_part_number}
+Find drawings showing part number {spare_part_number}
+Looking for component {spare_part_number} prints
+Show me where part # {spare_part_number} is located
+I need the schematic for part {spare_part_number}
+Can you find part number {spare_part_number} on any drawing?
+Where does part # {spare_part_number} appear in the prints?
+I'm looking for the drawing that shows part {spare_part_number}
+I need the print for {equipment_name} {equipment_number}
+Show me {drawing_name} for equipment {equipment_number}
+Can you find the {drawing_name} drawing for the {equipment_name}?
+I need {drawing_number} which shows the {equipment_name}
+Looking for part # {spare_part_number} on equipment {equipment_number}
+Find me the {drawing_name} for {equipment_name} unit
+I need drawing {drawing_number} for the {equipment_name}
+Can you locate part {spare_part_number} in the {drawing_name}?
+Show me the {equipment_name} {drawing_name} drawing
+Where is part # {spare_part_number} on {equipment_number}?
+I need the {drawing_name} for equipment number {equipment_number}
+Find drawing {drawing_number} showing the {equipment_name}
+Can you find part {spare_part_number} on the {equipment_name} print?
+I'm looking for {drawing_name} of {equipment_name} {equipment_number}
+Show me where part # {spare_part_number} is on equipment {equipment_number}
+Need the {drawing_name} drawing for {equipment_name}
+I need {drawing_number} for the {equipment_name} assembly
+Can you find the {equipment_name} print with part {spare_part_number}?
+Looking for {drawing_name} drawing {drawing_number}
+Where is part # {spare_part_number} shown in the {equipment_name} drawings?
+I need equipment {equipment_number} {drawing_name}
+Find me part {spare_part_number} on the {equipment_name} schematic
+Show the {drawing_name} for {equipment_name} number {equipment_number}

@@ -1,0 +1,32 @@
+{
+  "timestamp": "2025-06-11T03:44:38.685685",
+  "total_tests": 2230144,
+  "total_patterns": 112,
+  "total_parts": 19912,
+  "exact_matches": 139384,
+  "exact_match_rate": 6.25,
+  "any_matches": 219032,
+  "any_match_rate": 9.821428571428571,
+  "avg_query_success_rate": 2.7901785714285716,
+  "best_performing_patterns": [
+    "Pattern 1 (FIND_PART): 100.0%",
+    "Pattern 2 (FIND_PART): 100.0%",
+    "Pattern 3 (FIND_PART): 100.0%",
+    "Pattern 4 (FIND_PART): 100.0%",
+    "Pattern 14 (FIND_PART): 100.0%",
+    "Pattern 10 (FIND_PART): 100.0%",
+    "Pattern 9 (FIND_PART): 100.0%"
+  ],
+  "worst_performing_patterns": [
+    "Pattern 30 (FIND_BEARING): 0.0%",
+    "Pattern 31 (FIND_BEARING): 0.0%",
+    "Pattern 32 (FIND_BEARING): 0.0%",
+    "Pattern 70 (FIND_BELT): 0.0%",
+    "Pattern 69 (FIND_BELT): 0.0%",
+    "Pattern 74 (FIND_BELT): 0.0%",
+    "Pattern 71 (FIND_BELT): 0.0%",
+    "Pattern 72 (FIND_BELT): 0.0%",
+    "Pattern 73 (FIND_BELT): 0.0%",
+    "Pattern 76 (FIND_CABLE): 0.0%"
+  ]
+}

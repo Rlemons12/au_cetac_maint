@@ -1,0 +1,25 @@
+version: "3.9"
+
+services:
+  flask_app:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    environment:
+      FLASK_ENV: development
+    volumes:
+      - ./ai_emtac.py:/app/ai_emtac.py
+      - ./docker_config.py:/app/docker_config.py
+      - ./docker_setup.py:/app/docker_setup.py
+      - ./modules:/app/modules
+      - ./plugins:/app/plugins
+      - ./templates:/app/templates
+      - ./static:/app/static
+      - ./blueprints:/app/blueprints
+      - ./check_imports.py:/app/check_imports.py
+      - ./Database:/app/Database
+      - ./utilities:/app/utilities
+      - ./utility_tools:/app/utility_tools
+      - ./load_process:/app/load_process
+      - ./logs:/app/logs:rw
+      - ./log_backup:/app/log_backup:rw

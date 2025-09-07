@@ -1,0 +1,10 @@
+Drawing-Part Association Summary
+Generated: 2025-05-23 09:28:13
+
+Total drawings processed: 1041
+Drawings with matching parts: 0
+Drawings with no matches: 45
+Drawings without spare part number: 0
+Drawings with multiple part numbers: 46
+Total associations created: 0
+Duration: 2.51 seconds

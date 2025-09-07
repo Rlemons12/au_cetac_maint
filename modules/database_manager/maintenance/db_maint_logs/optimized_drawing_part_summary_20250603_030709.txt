@@ -1,0 +1,10 @@
+Optimized Drawing-Part Association Summary
+Generated: 2025-06-03 03:07:09
+
+Total Drawings Processed: 1041
+Drawings With Matching Parts: 996
+Total Associations Created: 1139
+Drawings With No Matches: 45
+Drawings Without Spare Part Number: 0
+Multiple Part Numbers Count: 46
+Duration Seconds: 0.7151188850402832

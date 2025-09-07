@@ -1,0 +1,80 @@
+project_name: Default
+working_dir: modules\emtac_ai\training_scripts\dataset_intent_train
+cmd:
+- python adpt_strm_db_parts_ner.py
+provisioning:
+  gpu_type: a10g
+  gpu_count: 4
+  cpu_count: 48
+  ram: 192
+  blank: false
+teamcity:
+  url: https://api.cadence.jetbrains.com
+  build_conf_id: id8b38d0ee997e40ecA32371dbc03dda61_JetTrain
+env:
+  variables:
+    PYTHONUNBUFFERED: "1"
+  python:
+    pip:
+      requirements_path: requirements.txt
+    version: 3.10.10
+  secrets:
+    variables: {}
+    ssh_keys: []
+  aws:
+    sync_config: false
+    sync_credentials: false
+    sync_cache: false
+project_sync:
+  local:
+    root: "."
+    storage_name: Cadence Storage
+    uri: ""
+    exclude:
+    - /.venv/**
+    - ./emtac_ai/models/**/snapshots/**
+    - ./emtac_ai/models/**/checkpoints/**
+    - ./emtac_ai/models/**/outputs/**
+    - ./emtac_ai/models/**/training_data/**
+    - ./emtac_ai/models/**/images/**
+    - ./emtac_ai/models/**/documents/**
+    - ./emtac_ai/models/**/drawings/**
+    - ./emtac_ai/models/**/tools/**
+    - ./emtac_ai/models/**/troubleshooting/**
+    - ./logs/**
+    - ./DB_IMAGES/**
+    - ./DB_LOADSHEETS/**
+    - ./DB_LOADSHEETS_BACKUP/**
+    - ./DB_LOADSHEET_BOMS/**
+    - ""
+    include:
+    - ./emtac_ai/training_scripts/**
+    - ./emtac_ai/models/**
+    - ./emtac_ai/util_scripts/**
+    - ""
+    - ""
+    - ""
+    - ""
+    - ""
+    - '#'
+    - only
+    - if
+    - used
+    - by
+    - training
+    - ./configuration/**
+    - ""
+    sync_back: false
+    snapshots: true
+    storage_type: DEFAULT
+inputs: []
+outputs:
+- type: OUTPUT
+  storage_name: Cadence Storage
+  uri: ""
+  path: 'modules/emtac_ai/models/parts/ '
+  acceleration: false
+  storage_type: DEFAULT
+mounts: []
+storages: []
+description: ""

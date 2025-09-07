@@ -1,0 +1,106 @@
+version: "3.9"
+
+services:
+  # ============================
+  # PostgreSQL (pgvector)
+  # ============================
+  emtac_postgres:
+    image: pgvector/pgvector:pg15
+    container_name: emtac_postgres
+    environment:
+      POSTGRES_DB: emtacdb
+      POSTGRES_USER: emtac_user
+      POSTGRES_PASSWORD: emtac123
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U emtac_user -d emtacdb -h localhost || pg_isready -U postgres -d emtacdb -h localhost"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+
+  # ============================
+  # Flask app
+  # ============================
+  flask_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: runtime
+    container_name: emtac_flask_app
+    depends_on:
+      emtac_postgres:
+        condition: service_healthy
+    environment:
+      FLASK_ENV: production
+      FLASK_SKIP_DOTENV: "1"
+      DOCKER_ENVIRONMENT: "true"
+      EMTAC_SKIP_DB_SERVICE_CHECK: "1"
+
+      POSTGRES_DB: emtacdb
+      POSTGRES_USER: emtac_user
+      POSTGRES_PASSWORD: emtac123
+      POSTGRES_HOST: emtac_postgres
+      POSTGRES_PORT: "5432"
+
+      PGHOST: emtac_postgres
+      PGPORT: "5432"
+      PGUSER: emtac_user
+      PGPASSWORD: emtac123
+      PGDATABASE: emtacdb
+
+      DATABASE_URL: postgresql+psycopg2://emtac_user:emtac123@emtac_postgres:5432/emtacdb
+      SQLALCHEMY_DATABASE_URI: postgresql+psycopg2://emtac_user:emtac123@emtac_postgres:5432/emtacdb
+
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      HUGGINGFACE_API_KEY: ${HUGGINGFACE_API_KEY:-}
+      CURRENT_AI_MODEL: ${CURRENT_AI_MODEL:-OpenAIModel}
+      CURRENT_EMBEDDING_MODEL: ${CURRENT_EMBEDDING_MODEL:-OpenAIEmbeddingModel}
+      OPENAI_MODEL_NAME: ${OPENAI_MODEL_NAME:-text-embedding-3-small}
+      CLIP_MODEL_PATH: /home/appuser/.cache/huggingface/clip-vit-base-patch32
+
+    command: >
+      sh -lc '
+        socat TCP-LISTEN:5432,fork,reuseaddr TCP:emtac_postgres:5432 &
+        echo "[init] Forwarding localhost:5432 -> emtac_postgres:5432";
+        exec python ai_emtac.py
+      '
+    ports:
+      - "5000:5000"
+    volumes:
+      - D:/hf_models:/home/appuser/.cache/huggingface
+    healthcheck:
+      test: >
+        CMD-SHELL python -c "
+        from transformers import CLIPModel, CLIPProcessor;
+        import os;
+        path=os.getenv('CLIP_MODEL_PATH');
+        CLIPModel.from_pretrained(path, local_files_only=True);
+        CLIPProcessor.from_pretrained(path, local_files_only=True)
+        " || exit 1
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+    restart: unless-stopped
+  
+
+  # ============================
+  # Redis (optional)
+  # ============================
+  redis:
+    image: redis:7-alpine
+    container_name: emtac_redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  redis_data:
