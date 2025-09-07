@@ -1,0 +1,63 @@
+/emtac/
+/temptest/
+/prototypes/
+/__a_reviewimage/
+/poo/
+/maint_task/
+/logs/
+/modules/configuration/api_config.py
+/plugins/huggingface
+/plugins/ai_modules/gpt4all
+/plugins/ai_modules/TinyLlama_1_1B
+
+# Ignore everything in /Database/ except the specified folders
+/Database/*
+!/Database/db_backup/
+!/Database/DB_DOC/
+!/Database/DB_IMAGES/
+!/Database/DB_LOADSHEETS/
+!/Database/DB_LOADSHEETS_BACKUP/
+!/Database/logs/
+!/Database/PDF_FILES/
+!/Database/PPT_FILES/
+
+# Ignore all contents within the tracked folders
+/Database/db_backup/*
+/Database/DB_DOC/*
+/Database/DB_IMAGES/*
+/Database/DB_LOADSHEETS/*
+/Database/DB_LOADSHEETS_BACKUP/*
+/Database/logs/*
+/Database/PDF_FILES/*
+/Database/PPT_FILES/*
+
+/modules/emtac_ai/models/
+
+
+# Ensure .gitkeep files are not ignored
+!/Database/db_backup/.gitkeep
+!/Database/DB_DOC/.gitkeep
+!/Database/DB_IMAGES/.gitkeep
+!/Database/DB_LOADSHEETS/.gitkeep
+!/Database/DB_LOADSHEETS_BACKUP/.gitkeep
+!/Database/logs/.gitkeep
+!/Database/PDF_FILES/.gitkeep
+!/Database/PPT_FILES/.gitkeep
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+
+# Ignore .idea folder except for specific subfolders
+.idea/*
+!.idea/codeStyles/
+!.idea/runConfigurations/
+.env
+app.log
+create_bill_of_material.log
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
